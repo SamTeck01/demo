@@ -51,7 +51,8 @@
   "foot-bg": "#d9b26f",
   "foot-ink": "#121212",
   "mark-size": "13vw",
-  "brand-weight": "700"
+  "brand-weight": "700",
+  "nav-ink": "#121212"
  },
  "nav": [
   [

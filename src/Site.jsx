@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, createContext, useContext } from 'react'
+import { Fragment, useEffect, useMemo, useRef, useState, createContext, useContext } from 'react'
 import { useParams, Link } from 'react-router-dom'
 
 // Every client is one JSON file in ./clients, loaded on demand so each site ships only its own data.
@@ -71,6 +71,8 @@ function SiteBody({ s }) {
 function useReveal(s) {
   useEffect(() => {
     const els = () => [...document.querySelectorAll('.rv:not(.in)')]
+    // The first screen never waits for a scroll.
+    document.querySelectorAll('.hero .rv').forEach((e, k) => { e.style.setProperty('--i', k); e.classList.add('in') })
     if (matchMedia('(prefers-reduced-motion: reduce)').matches || innerHeight > 1800) { els().forEach(e => e.classList.add('in')); return }
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) } }), { rootMargin: '0px 0px -8% 0px' })
     const watch = () => els().forEach((el, k) => { if (!el.style.getPropertyValue('--i')) el.style.setProperty('--i', k % 4); io.observe(el) })
@@ -94,7 +96,7 @@ function Words({ as: T = 'h1', html, className = '', ...p }) {
     <T className={`words ${className}`} {...p}>
       {lines.map((line, i) => (
         <span key={i}>{i > 0 && <br />}{line.trim().split(/\s+/).map((w, j) => (
-          <span className="w" key={j}><span style={{ '--k': k++ }}>{w}</span>{' '}</span>))}
+          <Fragment key={j}><span className="w"><span style={{ '--k': k++ }}>{w}</span></span>{' '}</Fragment>))}
         </span>))}
     </T>)
 }
@@ -371,7 +373,7 @@ function Footer() {
   const { s } = useSite(); const mark = useRef(null)
   useEffect(() => {
     const el = mark.current; if (!el) return
-    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { el.classList.add('in'); io.disconnect() } }, { threshold: 0.3 })
+    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { el.classList.add('in'); io.disconnect() } }, { threshold: 0 })
     io.observe(el); return () => io.disconnect()
   }, [])
   return (

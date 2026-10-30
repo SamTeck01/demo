@@ -50,7 +50,8 @@
   "radius": "0",
   "foot-bg": "#0f5e6e",
   "foot-ink": "#f2f4f3",
-  "mark-size": "17vw"
+  "mark-size": "17vw",
+  "nav-ink": "#f2f4f3"
  },
  "nav": [
   [

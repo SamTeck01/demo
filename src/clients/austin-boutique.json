@@ -50,7 +50,8 @@
   "hero-ink": "#101211",
   "foot-bg": "#d7f25c",
   "foot-ink": "#101211",
-  "mark-size": "20vw"
+  "mark-size": "20vw",
+  "nav-ink": "#101211"
  },
  "nav": [
   [
