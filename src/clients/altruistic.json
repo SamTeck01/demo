@@ -187,6 +187,35 @@
    "intro": "Pick a neighbourhood to see what it costs and how it lives."
   },
   {
+   "kind": "about",
+   "id": "story",
+   "title": "A boutique brokerage",
+   "lead": "Altruistic Homes is led by broker Maria Teresa Toledo, whose clients say homes go under contract fast and close in under 30 days.",
+   "img": "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Miami skyline over the water at dusk",
+   "over": "Condos, homes, income property and business opportunities across South and Central Florida.",
+   "tile": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Bright living room with wood wall",
+   "facts": [
+    [
+     "5.0",
+     "Homes.com rating"
+    ],
+    [
+     "16",
+     "Sales, 5 years"
+    ],
+    [
+     "EN · ES",
+     "Languages"
+    ],
+    [
+     "2",
+     "Florida regions"
+    ]
+   ]
+  },
+  {
    "kind": "visit",
    "title": "Talk to Maria Teresa",
    "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&q=80&auto=format&fit=crop",

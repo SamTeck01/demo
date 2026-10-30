@@ -74,7 +74,7 @@
   "v": "sky",
   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=2400&q=80&auto=format&fit=crop",
   "alt": "Glass towers rising into a blue sky",
-  "title": "Every kind of<br>property in Qatar",
+  "title": "Every property<br>in Qatar",
   "horizon": [
    "Homes, shops,",
    "warehouses and land"
@@ -171,6 +171,35 @@
    "kind": "areas",
    "title": "Where we trade",
    "intro": "From the Industrial Area to the coast. Pick a location."
+  },
+  {
+   "kind": "about",
+   "title": "Licensed since 2008",
+   "lead": "Bin Ajlan Properties holds a Qatari brokerage licence and is part of the wider Bin Ajlan Group.",
+   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Glass office towers",
+   "over": "Brokerage, management, valuation and development under one roof on Salwa Road.",
+   "tile": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "White villa",
+   "id": "story",
+   "facts": [
+    [
+     "2008",
+     "Licensed"
+    ],
+    [
+     "4",
+     "Services"
+    ],
+    [
+     "Homes",
+     "Shops · Warehouses"
+    ],
+    [
+     "Salwa Rd",
+     "Head office"
+    ]
+   ]
   },
   {
    "kind": "process",
@@ -373,7 +402,7 @@
   },
   {
    "id": "ba5",
-   "title": "Labour accommodation block",
+   "title": "Worker housing block",
    "area": "Industrial Area",
    "type": "Commercial",
    "price": 14500000,

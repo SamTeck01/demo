@@ -51,6 +51,7 @@ function SiteBody({ s }) {
   const [open, setOpen] = useState(null)
   const [areaFilter, setAreaFilter] = useState('all')
   useReveal(s)
+  useParallax()
   const ctx = { s, money, favs, toggleFav, setOpen, areaFilter, setAreaFilter }
   return (
     <Ctx.Provider value={ctx}>
@@ -85,13 +86,55 @@ function Pic({ src, alt, cls = '', eager = false, w = 1600, h = 1056 }) {
 }
 const Html = ({ as: T = 'span', html, ...p }) => <T {...p} dangerouslySetInnerHTML={{ __html: html }} />
 
+// Headline split into words that rise in sequence. <br> in the source becomes a line break.
+function Words({ as: T = 'h1', html, className = '', ...p }) {
+  let k = 0
+  const lines = html.split(/<br\s*\/?>/i)
+  return (
+    <T className={`words ${className}`} {...p}>
+      {lines.map((line, i) => (
+        <span key={i}>{i > 0 && <br />}{line.trim().split(/\s+/).map((w, j) => (
+          <span className="w" key={j}><span style={{ '--k': k++ }}>{w}</span>{' '}</span>))}
+        </span>))}
+    </T>)
+}
+
+// Numbers glide to their new value instead of jumping (interruptible: each change restarts from the current value).
+function Tween({ value, format }) {
+  const [shown, setShown] = useState(value); const from = useRef(value)
+  useEffect(() => {
+    if (typeof value !== 'number' || matchMedia('(prefers-reduced-motion: reduce)').matches) { setShown(value); return }
+    const a = from.current, t0 = performance.now(); let raf
+    const step = t => { const p = Math.min(1, (t - t0) / 380), e = 1 - Math.pow(1 - p, 3), v = a + (value - a) * e; from.current = v; setShown(v); if (p < 1) raf = requestAnimationFrame(step) }
+    raf = requestAnimationFrame(step); return () => cancelAnimationFrame(raf)
+  }, [value])
+  return typeof value === 'number' ? format(shown) : value
+}
+
+// The hero picture drifts slower than the page.
+function useParallax() {
+  useEffect(() => {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const el = document.querySelector('.hero>.ph, .hero .pic .ph, .hero-editorial>.ph, .hero-arch>.ph, .hero-poster>.ph'); if (!el) return
+    let raf = 0
+    const on = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { const y = Math.min(scrollY, innerHeight * 1.2); el.style.transform = `translate3d(0, ${y * 0.18}px, 0)` }) }
+    addEventListener('scroll', on, { passive: true }); return () => { removeEventListener('scroll', on); cancelAnimationFrame(raf) }
+  }, [])
+}
+
 function Nav() {
   const { s } = useSite()
   const [open, setOpen] = useState(false)
   useEffect(() => { document.body.style.overflow = open ? 'hidden' : ''; return () => { document.body.style.overflow = '' } }, [open])
   const close = () => setOpen(false)
+  const [stuck, setStuck] = useState(false); const [away, setAway] = useState(false)
+  useEffect(() => {
+    let last = scrollY
+    const on = () => { const y = scrollY; setStuck(y > innerHeight * 0.9); setAway(y > innerHeight * 0.9 && y > last + 4); if (y < last - 4) setAway(false); last = y }
+    addEventListener('scroll', on, { passive: true }); return () => removeEventListener('scroll', on)
+  }, [])
   return (
-    <nav className={`nav${s.nav_solid ? ' solid' : ''}${open ? ' open' : ''}`} aria-label="Main">
+    <nav className={`nav${s.nav_solid ? ' solid' : ''}${open ? ' open' : ''}${stuck && !s.nav_solid ? ' stuck' : ''}${away && !open ? ' away' : ''}`} aria-label="Main">
       <a className="brand" href="#top" onClick={close}>{s.short}</a>
       <ul>{s.nav.map(([t, a]) => <li key={a}><a href={`#${a}`} onClick={close}>{t}</a></li>)}</ul>
       <a className="btn" href="#visit" onClick={close}>{s.cta || 'Book a viewing'}</a>
@@ -102,24 +145,24 @@ function Nav() {
 
 function Hero() {
   const { s } = useSite(); const h = s.hero
-  const act = <a className={`btn ${h.btn || ''}`} href="#homes">{h.action || 'See the homes'}</a>
+  const act = <a className={`btn ${h.btn || ''}`} href="#homes">{h.action || 'See the homes'} <span className="arr" aria-hidden="true">→</span></a>
   if (h.v === 'film') return (
     <header className="hero hero-film" id="top" style={{ '--scrim': h.scrim ?? 0.3 }}>
       <Pic src={h.img} alt={h.alt} cls="scrim shutter" eager w={2400} h={1584} />
       <div className="top"><p className="lead sub">{h.sub}</p>{act}</div>
-      <h1><span className="sr">{s.name}: </span><Html html={h.title} /></h1>
+      <Words html={h.title} aria-label={`${s.name}: ${h.title.replace(/<br\s*\/?>/gi, ' ')}`} />
     </header>)
   if (h.v === 'sky') return (
     <header className="hero hero-sky" id="top" style={{ '--scrim': h.scrim ?? 0.18 }}>
       <Pic src={h.img} alt={h.alt} cls="scrim shutter" eager w={2400} h={1584} />
-      <Html as="h1" html={h.title} />
+      <Words html={h.title} />
       <div className="horizon"><p>{h.horizon[0]}</p><span /><p>{h.horizon[1]}</p></div>
       <div className="act">{act}</div>
     </header>)
   if (h.v === 'split') return (
     <header className="hero hero-split" id="top">
       <div className="copy">
-        <Html as="h1" className="rv" html={h.title} /><p className="lead rv">{h.sub}</p>
+        <Words html={h.title} /><p className="lead rv">{h.sub}</p>
         <div className="rv">{act}</div>
         <div className="facts rv">{(h.facts || []).map(([n, t]) => <div key={t}><b>{n}</b><span className="small soft">{t}</span></div>)}</div>
       </div>
@@ -127,22 +170,22 @@ function Hero() {
     </header>)
   if (h.v === 'poster') return (
     <header className="hero hero-poster" id="top">
-      <Html as="h1" html={h.title} /><Pic src={h.img} alt={h.alt} cls="shutter" eager />
+      <Words html={h.title} /><Pic src={h.img} alt={h.alt} cls="shutter" eager />
       <p className="lead sub">{h.sub}</p>
       <div className="bar">{act}<a className="btn ghost" href="#visit">{h.second || 'Talk to us'}</a></div>
     </header>)
   if (h.v === 'editorial') return (
     <header className="hero hero-editorial" id="top">
       <div className="copy">
-        <Html as="h1" className="rv" html={h.title} /><p className="lead rv">{h.sub}</p><div className="rv">{act}</div>
-        <dl className="specs rv">{h.specs.map(([a, b]) => <div key={a}><dt>{a}</dt><dd>{b}</dd></div>)}</dl>
+        <Words html={h.title} /><p className="lead rv">{h.sub}</p><div className="rv">{act}</div>
+        <dl className="specs rv">{h.specs.map(([a, b]) => <div key={a} style={{ display: 'flex', flexDirection: 'column-reverse' }}><dt>{a}</dt><dd>{b}</dd></div>)}</dl>
       </div>
       <Pic src={h.img} alt={h.alt} cls="shutter" eager />
     </header>)
   return (
     <header className="hero hero-arch" id="top">
       <Pic src={h.img} alt={h.alt} cls="shutter" eager />
-      <div className="copy"><Html as="h1" className="rv" html={h.title} /><p className="lead rv">{h.sub}</p><div className="rv">{act}</div></div>
+      <div className="copy"><Words html={h.title} /><p className="lead rv">{h.sub}</p><div className="rv">{act}</div></div>
     </header>)
 }
 
@@ -178,10 +221,10 @@ function Listings({ d }) {
           {['all', ...types].map(t => <button key={t} className="chip" type="button" aria-pressed={type === t && !saved} onClick={() => { setType(t); setSaved(false) }}>{t === 'all' ? 'All' : t}</button>)}
           <button className="chip" type="button" aria-pressed={saved} onClick={() => setSaved(v => !v)}>Saved</button>
         </div>
-        <label>Area<select value={areaFilter} onChange={e => setAreaFilter(e.target.value)}><option value="all">Every area</option>{areas.map(a => <option key={a}>{a}</option>)}</select></label>
-        <label>Bedrooms<select onChange={e => setBeds(+e.target.value)}><option value="0">Any</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option></select></label>
-        <label>Up to<select onChange={e => setMax(+e.target.value || Infinity)}><option value="">Any price</option>{d.max.map(([v, t]) => <option key={v} value={v}>{t}</option>)}</select></label>
-        <label>Sort<select onChange={e => setSort(e.target.value)}><option value="new">Newest</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option></select></label>
+        <label><span className="sr">Area</span><select value={areaFilter} onChange={e => setAreaFilter(e.target.value)}><option value="all">Every area</option>{areas.map(a => <option key={a}>{a}</option>)}</select></label>
+        <label><span className="sr">Bedrooms</span><select onChange={e => setBeds(+e.target.value)}><option value="0">Any bedrooms</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option></select></label>
+        <label><span className="sr">Up to</span><select onChange={e => setMax(+e.target.value || Infinity)}><option value="">Any price</option>{d.max.map(([v, t]) => <option key={v} value={v}>{t}</option>)}</select></label>
+        <label><span className="sr">Sort</span><select onChange={e => setSort(e.target.value)}><option value="new">Sort: newest</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option></select></label>
         <span className="count" aria-live="polite">{r.length} of {L.length} homes</span>
       </div>
       {!r.length && <p className="empty">{saved ? 'Nothing saved yet. Tap the heart on any home to keep it here.' : 'No homes match those settings. Widen the price or clear a filter.'}</p>}
@@ -242,7 +285,7 @@ function Tool({ d }) {
               <div className="top"><label htmlFor={`r-${n}`}>{label}</label><output htmlFor={`r-${n}`}>{fmt(f, v[n])}</output></div>
               <input id={`r-${n}`} type="range" min={mn} max={mx} step={st} value={v[n]} onChange={e => setV(o => ({ ...o, [n]: +e.target.value }))} />
             </div>))}
-          <div className="result">{d.results.map(([k, t]) => <div key={k}><b>{typeof out[k] === 'number' ? money(out[k]) : out[k]}</b><span>{t}</span></div>)}</div>
+          <div className="result">{d.results.map(([k, t]) => <div key={k}><b><Tween value={out[k]} format={money} /></b><span>{t}</span></div>)}</div>
           <div><div className="bars">{parts.map((x, k) => <i key={k} style={{ width: `${x / total * 100}%`, background: d.bars[k] }} />)}</div><p className="small" style={{ marginTop: 10 }}>{d.legend.join(' · ')}</p></div>
           <a className="btn" href="#visit">{d.action || 'Talk this through with us'}</a>
         </div>
@@ -258,12 +301,12 @@ function Areas({ d }) {
       <div className="sect-head"><h2 id="ar-h" className="rv">{d.title}</h2><p className="rv">{d.intro}</p></div>
       <div className="areas">
         <ol className="rv">{s.areas.map((x, i) => <li key={x.name}><button type="button" aria-current={i === k} onClick={() => setK(i)}>{x.name}</button></li>)}</ol>
-        <div className="detail rv">
+        <div className="detail rv"><div key={k} className="swap" style={{ display: 'grid', gap: 20 }}>
           <Pic src={a.img} alt={a.name} w={1000} h={1250} />
           <p>{a.text}</p>
           <dl>{a.facts.map(([l, x]) => <div key={l}><dt>{l}</dt><dd>{x}</dd></div>)}</dl>
           <a className="btn ghost" href="#homes" onClick={() => setAreaFilter(s.listings.some(p => p.area === a.name) ? a.name : 'all')}>See homes here</a>
-        </div>
+        </div></div>
       </div>
     </section>)
 }
@@ -325,11 +368,16 @@ function Visit({ d }) {
 }
 
 function Footer() {
-  const { s } = useSite()
+  const { s } = useSite(); const mark = useRef(null)
+  useEffect(() => {
+    const el = mark.current; if (!el) return
+    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { el.classList.add('in'); io.disconnect() } }, { threshold: 0.3 })
+    io.observe(el); return () => io.disconnect()
+  }, [])
   return (
     <footer className="foot">
       <div className="cols">{s.foot_cols.map((c, i) => <div key={i}>{c.map(x => <p key={x}>{x}</p>)}</div>)}</div>
-      <div className="mark" aria-hidden="true">{s.mark}</div>
+      <div className="mark" aria-hidden="true" ref={mark}>{[...s.mark].map((c, k) => <span className="l" key={k} style={{ '--k': k }}>{c === ' ' ? '\u00a0' : c}</span>)}</div>
       <div className="legal"><span>© {new Date().getFullYear()} {s.name}</span><span className="demo-note">Concept website prepared as a demo. Listings and figures are samples. Photography: Unsplash.</span></div>
     </footer>)
 }

@@ -283,3 +283,47 @@ dialog.prop[open]{animation:pop 260ms var(--ease-out)}
   .drift img{animation:none}
   html{scroll-behavior:auto}
 }
+
+/* fixes from inspection */
+.rail .card .row{flex-direction:column;gap:4px}
+.index h3{font-size:clamp(1.25rem,1rem + 1.1vw,2rem)}
+.specs{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+.hero-arch h1{font-size:clamp(3.2rem,6.4vw,6.5rem)}
+.facts4 b,.specs dd,.hero-split .facts b{overflow-wrap:anywhere}
+.facts4 b{font-size:clamp(1.5rem,1.1rem + 1.2vw,2.5rem)}
+
+/* ===== Motion layer (Emil Kowalski rules: purposeful, fast out, transform + opacity, interruptible) ===== */
+/* Hero headline rises word by word */
+.words .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.06em;margin-bottom:-.06em}
+.words .w>span{display:inline-block;transform:translateY(105%);animation:rise 900ms var(--ease-out) forwards;animation-delay:calc(var(--k)*70ms + 250ms)}
+@keyframes rise{to{transform:none}}
+/* Hero picture drifts with the scroll (set by script) */
+.hero>.ph,.hero-split .pic .ph,.hero-editorial>.ph,.hero-arch>.ph,.hero-poster>.ph{will-change:transform}
+/* Photos open from the bottom edge as their section enters */
+.rv .ph,.ph.rv{clip-path:inset(0 0 0 0);transition:clip-path 1000ms var(--ease-io)}
+.rv:not(.in) .ph,.ph.rv:not(.in){clip-path:inset(0 0 100% 0)}
+.rv .ph img,.ph.rv img{transition:transform 1400ms var(--ease-out)}
+.rv:not(.in) .ph img,.ph.rv:not(.in) img{transform:scale(1.1)}
+/* Neighbourhood switch: blur bridges the crossfade */
+.swap{animation:swap 420ms var(--ease-out)}
+@keyframes swap{from{opacity:.35;filter:blur(6px);transform:translateY(6px)}}
+/* Saved heart pops */
+.fav[aria-pressed="true"] svg{animation:pop2 320ms var(--ease-out)}
+@keyframes pop2{40%{transform:scale(1.3)}}
+/* Navigation: hides on the way down, returns on a solid bar on the way up */
+.nav{transition:transform 320ms var(--ease-out),background-color 200ms ease}
+.nav.stuck{position:fixed;background:var(--bg);color:var(--ink)}
+.nav.stuck.away{transform:translateY(-100%)}
+/* Footer wordmark rises letter by letter */
+.mark .l{display:inline-block;transform:translateY(40%);opacity:0;transition:transform 900ms var(--ease-out),opacity 600ms ease;transition-delay:calc(var(--k)*45ms)}
+.mark.in .l{transform:none;opacity:1}
+/* Action arrows nudge on hover */
+.btn .arr{display:inline-block;transition:transform 200ms var(--ease-out)}
+@media (hover:hover) and (pointer:fine){.btn:hover .arr{transform:translateX(4px)}.chip:hover{filter:brightness(.96)}}
+@media (prefers-reduced-motion:reduce){
+  .words .w>span{animation:none;transform:none}
+  .rv .ph,.ph.rv,.rv .ph img,.ph.rv img{clip-path:none!important;transform:none!important;transition:none}
+  .swap,.fav[aria-pressed="true"] svg{animation:none}
+  .mark .l{transform:none;opacity:1;transition:none}
+  .nav{transition:none}
+}

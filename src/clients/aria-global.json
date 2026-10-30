@@ -77,8 +77,8 @@
   "v": "editorial",
   "img": "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=2400&q=80&auto=format&fit=crop",
   "alt": "Miami towers along Biscayne Bay",
-  "title": "Your home in Miami.<br>Tu hogar en Miami.",
-  "sub": "Maria Medina has closed 94 sales across Miami and Coral Gables, in English and Spanish, with 71 five-star reviews to show for it.",
+  "title": "Your home in Miami",
+  "sub": "Tu hogar en Miami. Maria Medina has closed 94 sales across Miami and Coral Gables, in English and Spanish, with 71 five-star reviews to show for it.",
   "action": "See homes · Ver casas",
   "specs": [
    [
@@ -87,7 +87,7 @@
    ],
    [
     "Reviews",
-    "71 × 5★"
+    "71 five-star"
    ],
    [
     "Languages",
