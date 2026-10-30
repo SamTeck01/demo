@@ -1,0 +1,340 @@
+{
+ "rank": 4,
+ "slug": "austin-boutique-realty",
+ "name": "Austin Boutique Realty",
+ "short": "Austin Boutique Realty",
+ "mark": "Boutique",
+ "city": "Austin, TX 78703",
+ "title": "Austin Boutique Realty · A few homes, chosen with care",
+ "description": "Austin Boutique Realty sells a small number of homes in Tarrytown, Rollingwood and central Austin, each with full attention. Drew Buchanan, broker.",
+ "email": "austinboutiquerealty@gmail.com",
+ "phone": "512 228 1579",
+ "address": "2507 Janice Drive<br>Austin, TX 78703",
+ "hours": [
+  [
+   "Monday to Friday",
+   "9:00 to 6:00"
+  ],
+  [
+   "Weekends",
+   "Showings by appointment"
+  ],
+  [
+   "Calls",
+   "Answered by Drew"
+  ]
+ ],
+ "currency": "USD",
+ "cta": "Call Drew",
+ "fonts": {
+  "url": "family=Instrument+Serif&family=Inter:wght@400;500",
+  "display": "'Instrument Serif',Georgia,serif",
+  "text": "'Inter',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#101211",
+  "surface": "#1d201e",
+  "ink": "#f1f1ec",
+  "muted": "#a3a8a2",
+  "accent": "#d7f25c",
+  "accent-ink": "#101211",
+  "field-1": "#d7f25c",
+  "field-1-ink": "#101211",
+  "field-2": "#f1f1ec",
+  "field-2-ink": "#101211",
+  "display-weight": "400",
+  "display-track": "-0.02em",
+  "display-lead": "0.92",
+  "btn-radius": "999px",
+  "radius": "0",
+  "hero-ink": "#101211",
+  "foot-bg": "#d7f25c",
+  "foot-ink": "#101211",
+  "mark-size": "20vw"
+ },
+ "nav": [
+  [
+   "The homes",
+   "homes"
+  ],
+  [
+   "Selling",
+   "calculator"
+  ],
+  [
+   "How we work",
+   "how"
+  ]
+ ],
+ "hero": {
+  "v": "poster",
+  "img": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Dark modern house with lit windows at dusk",
+  "title": "Few homes.<br>Full attention.",
+  "sub": "A small Austin brokerage in Tarrytown. Drew Buchanan takes on a handful of homes at a time and sells each one personally.",
+  "action": "See the homes",
+  "second": "Call Drew"
+ },
+ "sections": [
+  {
+   "kind": "listings",
+   "title": "In the window now",
+   "intro": "Six homes, from a Pemberton condo to a $4.6M Rollingwood estate. Each one priced, staged and shown by the broker himself.",
+   "style": "mosaic",
+   "max": [
+    [
+     1000000,
+     "$1M"
+    ],
+    [
+     2000000,
+     "$2M"
+    ],
+    [
+     5000000,
+     "$5M"
+    ]
+   ]
+  },
+  {
+   "kind": "sell",
+   "title": "What would you take home?",
+   "text": "Sellers ask us this first. Set your price and the commission, and see what lands in your account.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Expected sale price",
+     300000,
+     8000000,
+     25000,
+     1450000,
+     "money"
+    ],
+    [
+     "fee",
+     "Commission",
+     2,
+     7,
+     0.25,
+     5.5,
+     "pct"
+    ]
+   ],
+   "results": [
+    [
+     "net",
+     "You'd take home"
+    ],
+    [
+     "fee",
+     "Commission"
+    ],
+    [
+     "save",
+     "Each 1% of price"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Your proceeds",
+    "Commission"
+   ],
+   "fine": "Illustration only; every listing agreement is set with you.",
+   "action": "Get my home's value"
+  },
+  {
+   "kind": "process",
+   "title": "Why a boutique",
+   "id": "how",
+   "steps": [
+    [
+     "One broker, start to finish",
+     "The person who prices your home is the person who shows it and negotiates the offer."
+    ],
+    [
+     "A short list on purpose",
+     "We cap how many homes we carry, so each gets weekly attention and a real plan."
+    ],
+    [
+     "Tarrytown is home",
+     "Our office is on Janice Drive. We walk these streets, and buyers can tell."
+    ],
+    [
+     "Straight answers",
+     "You'll hear the honest price and the honest timeline, even when it's not what you hoped."
+    ]
+   ]
+  },
+  {
+   "kind": "about",
+   "title": "Small by design",
+   "lead": "Austin Boutique Realty is an independent brokerage based in 78703, led by broker Drew Buchanan.",
+   "img": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Bright loft living room with large windows",
+   "over": "Every listing is photographed, staged and marketed as if it were the only one we had.",
+   "tile": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Cedar-clad modern house",
+   "facts": [
+    [
+     "78703",
+     "Home base"
+    ],
+    [
+     "$4.6M",
+     "Top listing now"
+    ],
+    [
+     "1",
+     "Broker on every deal"
+    ],
+    [
+     "6",
+     "Homes at a time"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Meet in Tarrytown",
+   "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Modern house with an infinity pool",
+   "needs": [
+    "Selling a home",
+    "Buying a home",
+    "A private valuation"
+   ],
+   "action": "Send to Drew",
+   "subject": "Austin Boutique Realty enquiry"
+  }
+ ],
+ "listings": [
+  {
+   "id": "ab1",
+   "title": "Rollingwood estate",
+   "area": "Rollingwood",
+   "type": "House",
+   "price": 4600000,
+   "beds": 5,
+   "baths": 6,
+   "size": "5,820 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Gated estate on Rollingwood Drive with a pool, a guest house and long Hill Country views.",
+   "status": "Featured",
+   "rent": false
+  },
+  {
+   "id": "ab2",
+   "title": "West 30th Street condo",
+   "area": "Bryker Woods",
+   "type": "Condo",
+   "price": 675000,
+   "beds": 2,
+   "baths": 2,
+   "size": "1,240 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two-bedroom condo steps from Seton and Shoal Creek trail, with garage parking.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ab3",
+   "title": "Tarrytown modern",
+   "area": "Tarrytown",
+   "type": "House",
+   "price": 2390000,
+   "beds": 4,
+   "baths": 4,
+   "size": "3,560 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Cedar and glass new build on a quiet street near Lake Austin Boulevard.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ab4",
+   "title": "Pemberton Heights classic",
+   "area": "Pemberton Heights",
+   "type": "House",
+   "price": 3150000,
+   "beds": 4,
+   "baths": 4,
+   "size": "3,900 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Stately 1930s home on a large lot, updated throughout, with a pool house.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ab5",
+   "title": "Clarksville cottage",
+   "area": "Clarksville",
+   "type": "House",
+   "price": 1295000,
+   "beds": 2,
+   "baths": 2,
+   "size": "1,380 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Walkable to West Sixth and Whole Foods, with a garden and a studio out back.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ab6",
+   "title": "Lake Austin view lot home",
+   "area": "Tarrytown",
+   "type": "House",
+   "price": 1950000,
+   "beds": 3,
+   "baths": 3,
+   "size": "2,450 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Glass-walled living room over the trees and a short walk to the lake.",
+   "status": "Under contract",
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Austin Boutique Realty, LLC",
+   "2507 Janice Drive, Austin 78703"
+  ],
+  [
+   "The homes",
+   "Selling",
+   "How we work"
+  ],
+  [
+   "512 228 1579",
+   "austinboutiquerealty@gmail.com"
+  ],
+  [
+   "Drew Buchanan",
+   "Broker"
+  ]
+ ],
+ "path": "austin-boutique",
+ "areas": []
+}

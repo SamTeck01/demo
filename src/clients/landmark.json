@@ -1,0 +1,471 @@
+{
+ "rank": 1,
+ "slug": "landmark-bahrain",
+ "name": "Landmark Bahrain",
+ "short": "Landmark",
+ "mark": "Landmark",
+ "city": "Manama, Bahrain",
+ "title": "Landmark Bahrain · Freehold homes on Bahrain's islands",
+ "description": "Landmark Bahrain sells and leases freehold homes on Reef Island, Amwaj, Bahrain Bay and Juffair. Search homes, plan a payment, book a viewing.",
+ "email": "info@landmarkbahrain.com",
+ "phone": "+973 1756 4600",
+ "address": "Bahrain Bay, Manama<br>Kingdom of Bahrain",
+ "hours": [
+  [
+   "Sunday to Thursday",
+   "8:30 to 17:30"
+  ],
+  [
+   "Saturday",
+   "9:00 to 14:00"
+  ],
+  [
+   "Friday",
+   "By appointment"
+  ]
+ ],
+ "currency": "BHD",
+ "locale": "en-BH",
+ "cta": "Book a viewing",
+ "fonts": {
+  "url": "family=Work+Sans:wght@300;400;500",
+  "display": "'Work Sans',system-ui,sans-serif",
+  "text": "'Work Sans',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#0d0c10",
+  "surface": "#1c1820",
+  "ink": "#ecebe7",
+  "muted": "#a59ca6",
+  "accent": "#f4a7b9",
+  "accent-ink": "#0c0a0e",
+  "field-1": "#ecebe7",
+  "field-1-ink": "#14121a",
+  "field-2": "#2a1d27",
+  "field-2-ink": "#ecebe7",
+  "display-weight": "300",
+  "display-track": "-0.035em",
+  "display-lead": "1.0",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#ecebe7",
+  "foot-ink": "#14121a",
+  "mark-size": "19vw"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Islands",
+   "areas"
+  ],
+  [
+   "Payment plan",
+   "calculator"
+  ],
+  [
+   "About",
+   "story"
+  ]
+ ],
+ "hero": {
+  "v": "film",
+  "img": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=2400&q=80&auto=format&fit=crop",
+  "alt": "White villa with a terrace pool under a clear sky",
+  "title": "Landmark",
+  "sub": "Freehold villas and apartments on Bahrain's islands, sold, leased and managed by people who live here.",
+  "action": "See the homes",
+  "btn": "paper"
+ },
+ "sections": [
+  {
+   "kind": "statement",
+   "title": "Island homes",
+   "img": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Living room with tall arched windows",
+   "text": "Bahrain grew rich on its pearl beds. Today its islands hold homes: Reef Island by the old harbour, the lagoons of Amwaj, the towers of Bahrain Bay. We know every one.",
+   "note": "Freehold ownership is open to every nationality in the designated areas we cover."
+  },
+  {
+   "kind": "listings",
+   "title": "Homes for sale and lease",
+   "intro": "Every home below is on one of the islands. Save the ones you like and book a viewing in two taps.",
+   "style": "mosaic",
+   "max": [
+    [
+     100000,
+     "BHD 100,000"
+    ],
+    [
+     200000,
+     "BHD 200,000"
+    ],
+    [
+     300000,
+     "BHD 300,000"
+    ],
+    [
+     500000,
+     "BHD 500,000"
+    ]
+   ]
+  },
+  {
+   "kind": "areas",
+   "title": "Choose an island",
+   "intro": "Each island lives differently. Pick one to see what a morning there looks like and what homes cost.",
+   "field": "field"
+  },
+  {
+   "kind": "plan",
+   "title": "Plan your payments",
+   "id": "calculator",
+   "text": "Most new homes on the islands are sold on a payment plan: a deposit now, the balance in monthly instalments to handover. Move the sliders to see yours.",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     60000,
+     900000,
+     5000,
+     210000,
+     "money"
+    ],
+    [
+     "down",
+     "Deposit",
+     10,
+     60,
+     5,
+     20,
+     "pct"
+    ],
+    [
+     "months",
+     "Instalments",
+     12,
+     84,
+     6,
+     48,
+     "n"
+    ]
+   ],
+   "results": [
+    [
+     "down",
+     "Deposit"
+    ],
+    [
+     "monthly",
+     "Each month"
+    ],
+    [
+     "months",
+     "Paid over"
+    ]
+   ],
+   "bars": [
+    "#f4a7b9",
+    "#6b5f6d"
+   ],
+   "legend": [
+    "Pink: deposit",
+    "Grey: instalments"
+   ],
+   "fine": "Plans vary by developer; we confirm the exact schedule for each home.",
+   "action": "Ask about this home's plan"
+  },
+  {
+   "kind": "about",
+   "title": "Built around the islands",
+   "lead": "Landmark was named for the buildings we wanted to bring to Bahrain. Our work includes marketing Le Reef, the freehold towers on Reef Island, and an Arabian Property Award for marketing.",
+   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Glass towers against a blue sky",
+   "over": "One team covers sale, lease and management, so the person who shows you the home is the person who looks after it.",
+   "tile": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Bright open-plan living room",
+   "facts": [
+    [
+     "4",
+     "Island districts"
+    ],
+    [
+     "2008",
+     "Arabian Property Award"
+    ],
+    [
+     "3",
+     "Services: sale, lease, care"
+    ],
+    [
+     "Every",
+     "Nationality may own"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Visit us at Bahrain Bay",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format&fit=crop",
+   "alt": "White villa beside a pool",
+   "needs": [
+    "Buying a home",
+    "Leasing a home",
+    "Selling or letting mine",
+    "Property management"
+   ],
+   "action": "Send my request",
+   "subject": "Landmark enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Reef Island",
+   "img": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1000&q=80&auto=format&fit=crop",
+   "text": "A private island off Manama's old harbour, with a marina, a beach club and the Le Reef towers.",
+   "facts": [
+    [
+     "From",
+     "BHD 140,000"
+    ],
+    [
+     "Best for",
+     "Marina living"
+    ],
+    [
+     "To the airport",
+     "12 minutes"
+    ],
+    [
+     "Ownership",
+     "Freehold"
+    ]
+   ]
+  },
+  {
+   "name": "Amwaj",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&q=80&auto=format&fit=crop",
+   "text": "Thirteen man-made islands on the north-east coast, built around lagoons, canals and the Lagoon promenade.",
+   "facts": [
+    [
+     "From",
+     "BHD 95,000"
+    ],
+    [
+     "Best for",
+     "Families, water"
+    ],
+    [
+     "To Manama",
+     "25 minutes"
+    ],
+    [
+     "Ownership",
+     "Freehold"
+    ]
+   ]
+  },
+  {
+   "name": "Bahrain Bay",
+   "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&q=80&auto=format&fit=crop",
+   "text": "The newest district, between the Four Seasons and the financial harbour, with towers on the water.",
+   "facts": [
+    [
+     "From",
+     "BHD 160,000"
+    ],
+    [
+     "Best for",
+     "City life"
+    ],
+    [
+     "To the airport",
+     "15 minutes"
+    ],
+    [
+     "Ownership",
+     "Freehold"
+    ]
+   ]
+  },
+  {
+   "name": "Juffair",
+   "img": "https://images.unsplash.com/photo-1597047084897-51e81819a499?w=1000&q=80&auto=format&fit=crop",
+   "text": "Manama's liveliest neighbourhood, close to schools, cafés and the Grand Mosque, with the best rental demand.",
+   "facts": [
+    [
+     "From",
+     "BHD 65,000"
+    ],
+    [
+     "Best for",
+     "Investors"
+    ],
+    [
+     "Gross yield",
+     "About 7%"
+    ],
+    [
+     "Ownership",
+     "Freehold"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "lb1",
+   "title": "Marina-view apartment, Le Reef",
+   "area": "Reef Island",
+   "type": "Apartment",
+   "price": 185000,
+   "beds": 2,
+   "baths": 2,
+   "size": "142 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Corner apartment on a high floor with a wraparound balcony over the marina, beach club membership and two parking bays.",
+   "status": "New"
+  },
+  {
+   "id": "lb2",
+   "title": "Lagoon villa with private pool",
+   "area": "Amwaj",
+   "type": "Villa",
+   "price": 420000,
+   "beds": 4,
+   "baths": 5,
+   "size": "410 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Detached villa on the lagoon with its own jetty, a pool deck facing west, a maid's room and a two-car garage.",
+   "status": null
+  },
+  {
+   "id": "lb3",
+   "title": "Bay tower one-bedroom",
+   "area": "Bahrain Bay",
+   "type": "Apartment",
+   "price": 118000,
+   "beds": 1,
+   "baths": 2,
+   "size": "88 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Furnished one-bedroom on the 31st floor with views across the bay to the Financial Harbour towers.",
+   "status": "Off-plan"
+  },
+  {
+   "id": "lb4",
+   "title": "Juffair investor studio",
+   "area": "Juffair",
+   "type": "Apartment",
+   "price": 68000,
+   "beds": 1,
+   "baths": 1,
+   "size": "61 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Leased studio with a tenant in place until next summer. Gym, pool and 24-hour security in the building.",
+   "status": null
+  },
+  {
+   "id": "lb5",
+   "title": "Penthouse over the harbour",
+   "area": "Reef Island",
+   "type": "Penthouse",
+   "price": 495000,
+   "beds": 4,
+   "baths": 4,
+   "size": "320 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two-level penthouse with a private plunge pool, a double-height living room and views to the King Fahd causeway.",
+   "status": "Exclusive"
+  },
+  {
+   "id": "lb6",
+   "title": "Townhouse on the canal",
+   "area": "Amwaj",
+   "type": "Townhouse",
+   "price": 235000,
+   "beds": 3,
+   "baths": 4,
+   "size": "260 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Three-floor townhouse on a quiet canal with a roof terrace and a garden that opens to the water.",
+   "status": null
+  },
+  {
+   "id": "lb7",
+   "title": "Family apartment near the mosque",
+   "area": "Juffair",
+   "type": "Apartment",
+   "price": 96000,
+   "beds": 2,
+   "baths": 2,
+   "size": "118 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Bright two-bedroom close to schools and the Grand Mosque, with a covered parking bay and a large balcony.",
+   "status": null
+  },
+  {
+   "id": "lb8",
+   "title": "Waterfront duplex",
+   "area": "Bahrain Bay",
+   "type": "Apartment",
+   "price": 268000,
+   "beds": 3,
+   "baths": 3,
+   "size": "205 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Duplex with floor-to-ceiling glass on the water's edge, a private lift lobby and concierge.",
+   "status": null
+  }
+ ],
+ "foot_cols": [
+  [
+   "Landmark Bahrain",
+   "Bahrain Bay, Manama"
+  ],
+  [
+   "Homes",
+   "Islands",
+   "Payment plan"
+  ],
+  [
+   "+973 1756 4600",
+   "info@landmarkbahrain.com"
+  ],
+  [
+   "Sunday to Thursday",
+   "8:30 to 17:30"
+  ]
+ ],
+ "path": "landmark"
+}

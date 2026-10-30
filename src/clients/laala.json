@@ -1,0 +1,386 @@
+{
+ "rank": 18,
+ "slug": "laala-al-kuwait",
+ "name": "La'ala Al Kuwait Real Estate",
+ "short": "La'ala Al Kuwait",
+ "mark": "La'ala",
+ "city": "Kuwait City, Kuwait",
+ "title": "La'ala Al Kuwait Real Estate · The pearls of Kuwait",
+ "description": "La'ala Al Kuwait Real Estate sells and leases homes in Kuwait City, Salmiya, Fintas and Khiran.",
+ "email": "info@laalaalkuwait.com",
+ "phone": "+965 2224 0000",
+ "address": "Kuwait City<br>State of Kuwait",
+ "hours": [
+  [
+   "Sunday to Thursday",
+   "8:00 to 17:00"
+  ],
+  [
+   "Saturday",
+   "9:00 to 13:00"
+  ],
+  [
+   "Friday",
+   "Closed"
+  ]
+ ],
+ "currency": "KWD",
+ "locale": "en-KW",
+ "cta": "Speak to Bader",
+ "fonts": {
+  "url": "family=Gloock&family=Inter:wght@400;500",
+  "display": "'Gloock',Georgia,serif",
+  "text": "'Inter',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#0d2526",
+  "surface": "#163536",
+  "ink": "#f1efe9",
+  "muted": "#a9bcb9",
+  "accent": "#e9d8ad",
+  "accent-ink": "#0d2526",
+  "field-1": "#f1efe9",
+  "field-1-ink": "#0d2526",
+  "field-2": "#1d4546",
+  "field-2-ink": "#f1efe9",
+  "display-weight": "400",
+  "display-track": "-0.02em",
+  "display-lead": "0.95",
+  "btn-radius": "999px",
+  "radius": "0",
+  "foot-bg": "#f1efe9",
+  "foot-ink": "#0d2526",
+  "mark-size": "24vw"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Areas",
+   "areas"
+  ],
+  [
+   "Returns",
+   "calculator"
+  ],
+  [
+   "Contact",
+   "visit"
+  ]
+ ],
+ "hero": {
+  "v": "sky",
+  "img": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=2400&q=80&auto=format&fit=crop",
+  "alt": "White villa above a blue pool",
+  "title": "The pearls<br>of Kuwait",
+  "horizon": [
+   "Homes chosen one at a time,",
+   "from the city to Khiran"
+  ],
+  "action": "See the homes",
+  "scrim": 0.25
+ },
+ "sections": [
+  {
+   "kind": "listings",
+   "title": "This season's pearls",
+   "intro": "Every home here was chosen by our team before it was listed.",
+   "style": "rail",
+   "max": [
+    [
+     500,
+     "Leases"
+    ],
+    [
+     150000,
+     "KWD 150,000"
+    ],
+    [
+     400000,
+     "KWD 400,000"
+    ]
+   ]
+  },
+  {
+   "kind": "areas",
+   "title": "Where to live",
+   "intro": "From the towers of the city to the chalets of Khiran.",
+   "field": "field"
+  },
+  {
+   "kind": "yield",
+   "title": "What will it earn?",
+   "text": "Kuwaiti investors buy for income. See the return on any home.",
+   "field": "field-2",
+   "inputs": [
+    [
+     "price",
+     "Purchase price",
+     50000,
+     1500000,
+     5000,
+     220000,
+     "money"
+    ],
+    [
+     "rent",
+     "Monthly rent",
+     100,
+     8000,
+     25,
+     1150,
+     "money"
+    ],
+    [
+     "costs",
+     "Running costs",
+     5,
+     35,
+     1,
+     15,
+     "pct"
+    ]
+   ],
+   "results": [
+    [
+     "gross",
+     "Gross yield"
+    ],
+    [
+     "net",
+     "Net yield"
+    ],
+    [
+     "year",
+     "Net income a year"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Income you keep",
+    "Service charges, upkeep, vacancy"
+   ],
+   "fine": "An estimate for comparing homes. We give you real figures for any listing.",
+   "action": "Ask for this home's figures"
+  },
+  {
+   "kind": "visit",
+   "title": "Find your pearl",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format&fit=crop",
+   "alt": "White villa with a pool",
+   "needs": [
+    "Buying",
+    "Leasing",
+    "Selling",
+    "Investing"
+   ],
+   "action": "Send to Bader",
+   "subject": "La'ala Al Kuwait enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Kuwait City",
+   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1000&q=80&auto=format&fit=crop",
+   "text": "Towers, the souq and the Gulf Road.",
+   "facts": [
+    [
+     "Homes",
+     "Apartments"
+    ],
+    [
+     "Feel",
+     "City"
+    ],
+    [
+     "2-bed rent",
+     "KWD 550"
+    ],
+    [
+     "To airport",
+     "20 min"
+    ]
+   ]
+  },
+  {
+   "name": "Salmiya",
+   "img": "https://images.unsplash.com/photo-1597047084897-51e81819a499?w=1000&q=80&auto=format&fit=crop",
+   "text": "Shops, the Marina Mall and the sea.",
+   "facts": [
+    [
+     "Homes",
+     "Apartments"
+    ],
+    [
+     "Feel",
+     "Busy"
+    ],
+    [
+     "2-bed rent",
+     "KWD 420"
+    ],
+    [
+     "Beach",
+     "Walkable"
+    ]
+   ]
+  },
+  {
+   "name": "Fintas",
+   "img": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1000&q=80&auto=format&fit=crop",
+   "text": "Coastal family apartments to the south.",
+   "facts": [
+    [
+     "Homes",
+     "Apartments"
+    ],
+    [
+     "Feel",
+     "Family"
+    ],
+    [
+     "2-bed rent",
+     "KWD 360"
+    ],
+    [
+     "To city",
+     "25 min"
+    ]
+   ]
+  },
+  {
+   "name": "Khiran",
+   "img": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1000&q=80&auto=format&fit=crop",
+   "text": "Chalets and waterfront homes for weekends.",
+   "facts": [
+    [
+     "Homes",
+     "Chalets"
+    ],
+    [
+     "Feel",
+     "Escape"
+    ],
+    [
+     "Chalet",
+     "From KWD 180,000"
+    ],
+    [
+     "To city",
+     "75 min"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "la1",
+   "title": "Khiran waterfront chalet",
+   "area": "Khiran",
+   "type": "Chalet",
+   "price": 245000,
+   "beds": 4,
+   "baths": 4,
+   "size": "320 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Chalet on the canal with a private pool and boat mooring.",
+   "status": "New",
+   "rent": false
+  },
+  {
+   "id": "la2",
+   "title": "Salmiya sea-view apartment",
+   "area": "Salmiya",
+   "type": "Apartment",
+   "price": 420,
+   "beds": 2,
+   "baths": 2,
+   "size": "115 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two bedrooms over the Gulf, near the Marina Mall.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "la3",
+   "title": "City tower three-bedroom",
+   "area": "Kuwait City",
+   "type": "Apartment",
+   "price": 165000,
+   "beds": 3,
+   "baths": 3,
+   "size": "175 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "High floor with long views over the Gulf Road.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "la4",
+   "title": "Fintas family flat",
+   "area": "Fintas",
+   "type": "Apartment",
+   "price": 360,
+   "beds": 3,
+   "baths": 2,
+   "size": "130 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Coastal family apartment, unfurnished.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "la5",
+   "title": "Khiran villa",
+   "area": "Khiran",
+   "type": "Villa",
+   "price": 390000,
+   "beds": 5,
+   "baths": 6,
+   "size": "450 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Five-bedroom villa with a pool facing the sea.",
+   "status": null,
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "La'ala Al Kuwait Real Estate Co.",
+   "Kuwait City"
+  ],
+  [
+   "Homes",
+   "Areas",
+   "Returns"
+  ],
+  [
+   "+965 2224 0000",
+   "info@laalaalkuwait.com"
+  ],
+  [
+   "Bader Al-Bahar",
+   "Head of Real Estate"
+  ]
+ ],
+ "path": "laala"
+}

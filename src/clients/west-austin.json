@@ -1,0 +1,508 @@
+{
+ "rank": 3,
+ "slug": "west-austin-properties",
+ "name": "West Austin Properties",
+ "short": "West Austin Properties",
+ "mark": "West Austin",
+ "city": "Austin, TX",
+ "title": "West Austin Properties · Three generations selling West Austin",
+ "description": "Laura Duggan and family have sold homes in West Austin since 1979. Search homes in Tarrytown, Northwest Hills, Westlake and Rollingwood.",
+ "email": "Laura@WestAustin.com",
+ "phone": "512 750 2425",
+ "address": "West Austin<br>Austin, TX 78703",
+ "hours": [
+  [
+   "Monday to Friday",
+   "9:00 to 6:00"
+  ],
+  [
+   "Saturday",
+   "10:00 to 4:00"
+  ],
+  [
+   "Sunday",
+   "Showings by appointment"
+  ]
+ ],
+ "currency": "USD",
+ "cta": "Call Laura",
+ "data": {
+  "taxRate": 0.019,
+  "insure": 220
+ },
+ "fonts": {
+  "url": "family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500",
+  "display": "'Newsreader',Georgia,serif",
+  "text": "'Inter',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#ecebe6",
+  "surface": "#dedcd4",
+  "ink": "#17191c",
+  "muted": "#555a60",
+  "accent": "#1d3557",
+  "accent-ink": "#ffffff",
+  "field-1": "#1d3557",
+  "field-1-ink": "#f1f2f3",
+  "field-2": "#c9c2b2",
+  "field-2-ink": "#17191c",
+  "display-weight": "400",
+  "display-track": "-0.02em",
+  "display-lead": "1.0",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#17191c",
+  "foot-ink": "#ecebe6",
+  "mark-size": "15.5vw"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Neighbourhoods",
+   "areas"
+  ],
+  [
+   "Payments",
+   "calculator"
+  ],
+  [
+   "The family",
+   "story"
+  ]
+ ],
+ "nav_solid": true,
+ "hero": {
+  "v": "split",
+  "img": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Modern home on a wide lawn under oak trees",
+  "title": "West Austin, handed down",
+  "sub": "Laura Duggan has sold homes west of MoPac since 1979. Today her daughter Katy sells beside her. Ask either of them about any street.",
+  "action": "See West Austin homes",
+  "facts": [
+   [
+    "1979",
+    "Laura's first sale"
+   ],
+   [
+    "3",
+    "Generations"
+   ],
+   [
+    "$37M",
+    "Sold in 5 years"
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "kind": "listings",
+   "title": "On the market this week",
+   "intro": "Every home is one we've walked through ourselves. Hover a row to see it; click for the full details.",
+   "style": "index",
+   "max": [
+    [
+     800000,
+     "$800k"
+    ],
+    [
+     1200000,
+     "$1.2M"
+    ],
+    [
+     2000000,
+     "$2M"
+    ],
+    [
+     4000000,
+     "$4M"
+    ]
+   ]
+  },
+  {
+   "kind": "areas",
+   "title": "The streets we know by heart",
+   "intro": "West Austin is a dozen small towns. Pick one to read how it lives.",
+   "field": "field-2"
+  },
+  {
+   "kind": "mortgage",
+   "title": "Your payment, honestly",
+   "text": "West Austin taxes run high. This shows your full monthly cost, not just the loan.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     300000,
+     5000000,
+     5000,
+     1250000,
+     "money"
+    ],
+    [
+     "down",
+     "Down payment",
+     3,
+     40,
+     1,
+     20,
+     "pct"
+    ],
+    [
+     "rate",
+     "Interest rate",
+     3,
+     9,
+     0.125,
+     6.5,
+     "pct"
+    ],
+    [
+     "years",
+     "Loan term",
+     15,
+     30,
+     15,
+     30,
+     "yr"
+    ]
+   ],
+   "results": [
+    [
+     "pi",
+     "Loan payment"
+    ],
+    [
+     "all",
+     "With tax and insurance"
+    ],
+    [
+     "total",
+     "Total interest"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)",
+    "var(--surface)"
+   ],
+   "legend": [
+    "Loan",
+    "Property tax",
+    "Insurance"
+   ],
+   "fine": "Assumes a 1.9% property tax rate. Your lender confirms the rest.",
+   "action": "Talk to us about financing"
+  },
+  {
+   "kind": "process",
+   "title": "How the family works",
+   "id": "how",
+   "steps": [
+    [
+     "A phone that gets answered",
+     "You call Laura or Katy directly. No call centre, no handoff to a junior agent."
+    ],
+    [
+     "Pricing from forty years of sales",
+     "We've seen the same houses sell three and four times. That history sets the price."
+    ],
+    [
+     "Marketing that suits the house",
+     "Professional photography, a written history of the home, and an open house only when it helps."
+    ],
+    [
+     "Certified to do it right",
+     "Laura holds CRS, CRB and CLHMS designations, the training luxury sellers expect."
+    ]
+   ]
+  },
+  {
+   "kind": "about",
+   "title": "Three generations, one office",
+   "lead": "West Austin Properties is family-owned. Laura started in 1979; her family has worked beside her ever since.",
+   "img": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Austin skyline and Lady Bird Lake at dusk",
+   "over": "Still independent, still answering our own phones, still in West Austin.",
+   "tile": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Classic living room with tall windows",
+   "facts": [
+    [
+     "1979",
+     "Founded"
+    ],
+    [
+     "42",
+     "Homes sold, 5 yrs"
+    ],
+    [
+     "5.0",
+     "Birdeye rating"
+    ],
+    [
+     "CRS",
+     "CRB · CLHMS"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Talk to the family",
+   "img": "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Large stone house lit at dusk",
+   "needs": [
+    "Buying in West Austin",
+    "Selling my home",
+    "A home valuation",
+    "Relocating to Austin"
+   ],
+   "action": "Send to Laura",
+   "subject": "West Austin Properties enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Tarrytown",
+   "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1000&q=80&auto=format&fit=crop",
+   "text": "Old oaks, Lake Austin a few blocks away, and Casis Elementary at the centre of it.",
+   "facts": [
+    [
+     "Median",
+     "$1.9M"
+    ],
+    [
+     "Schools",
+     "Casis ES"
+    ],
+    [
+     "Homes",
+     "1930s–new"
+    ],
+    [
+     "Lake",
+     "5 min walk"
+    ]
+   ]
+  },
+  {
+   "name": "Northwest Hills",
+   "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80&auto=format&fit=crop",
+   "text": "Hill Country views and quiet cul-de-sacs, ten minutes from downtown.",
+   "facts": [
+    [
+     "Median",
+     "$1.1M"
+    ],
+    [
+     "Schools",
+     "Doss ES"
+    ],
+    [
+     "Homes",
+     "1960s–80s"
+    ],
+    [
+     "Views",
+     "Many"
+    ]
+   ]
+  },
+  {
+   "name": "Westlake",
+   "img": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1000&q=80&auto=format&fit=crop",
+   "text": "Top-rated Eanes schools and larger lots across the river.",
+   "facts": [
+    [
+     "Median",
+     "$2.2M"
+    ],
+    [
+     "Schools",
+     "Eanes ISD"
+    ],
+    [
+     "Homes",
+     "1980s–new"
+    ],
+    [
+     "Downtown",
+     "15 min"
+    ]
+   ]
+  },
+  {
+   "name": "Rollingwood",
+   "img": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1000&q=80&auto=format&fit=crop",
+   "text": "A small city of its own, with its own police and park, minutes from Zilker.",
+   "facts": [
+    [
+     "Median",
+     "$2.6M"
+    ],
+    [
+     "Schools",
+     "Eanes ISD"
+    ],
+    [
+     "Homes",
+     "Ranch, new"
+    ],
+    [
+     "Zilker",
+     "5 min"
+    ]
+   ]
+  },
+  {
+   "name": "Bryker Woods",
+   "img": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1000&q=80&auto=format&fit=crop",
+   "text": "Cottages and bungalows near Seton and Shoal Creek.",
+   "facts": [
+    [
+     "Median",
+     "$1.5M"
+    ],
+    [
+     "Schools",
+     "Bryker Woods ES"
+    ],
+    [
+     "Homes",
+     "1930s–50s"
+    ],
+    [
+     "Downtown",
+     "8 min"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "wa1",
+   "title": "Tarrytown cottage on a corner lot",
+   "area": "Tarrytown",
+   "type": "House",
+   "price": 1495000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,910 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Restored 1938 cottage, original hardwoods, a new kitchen and a backyard under a heritage oak.",
+   "status": "New",
+   "rent": false
+  },
+  {
+   "id": "wa2",
+   "title": "Furnished townhouse, Northwest Hills",
+   "area": "Northwest Hills",
+   "type": "Townhouse",
+   "price": 685000,
+   "beds": 2,
+   "baths": 2,
+   "size": "1,420 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Move-in ready and fully furnished, with a two-car garage and views to the west.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "wa3",
+   "title": "Westlake modern with pool",
+   "area": "Westlake",
+   "type": "House",
+   "price": 2895000,
+   "beds": 5,
+   "baths": 5,
+   "size": "4,650 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Eanes schools, a lap pool, a guest suite and a study with built-ins.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "wa4",
+   "title": "Rollingwood new build",
+   "area": "Rollingwood",
+   "type": "House",
+   "price": 3450000,
+   "beds": 4,
+   "baths": 5,
+   "size": "4,100 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "New construction on a half-acre, chef's kitchen, and a screened porch over the hills.",
+   "status": "Coming soon",
+   "rent": false
+  },
+  {
+   "id": "wa5",
+   "title": "Bryker Woods bungalow",
+   "area": "Bryker Woods",
+   "type": "House",
+   "price": 1189000,
+   "beds": 2,
+   "baths": 2,
+   "size": "1,350 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Classic bungalow with a front porch, a garden studio and walking distance to Shoal Creek.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "wa6",
+   "title": "Northwest Hills view home",
+   "area": "Northwest Hills",
+   "type": "House",
+   "price": 1325000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,980 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Updated 1970s home with long views, decks on two levels and a three-car garage.",
+   "status": null,
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "West Austin Properties",
+   "Family-owned since 1979"
+  ],
+  [
+   "Homes",
+   "Neighbourhoods",
+   "Payments"
+  ],
+  [
+   "512 750 2425",
+   "Laura@WestAustin.com"
+  ],
+  [
+   "Laura Duggan, Broker",
+   "Katy Duggan Rymer"
+  ]
+ ],
+ "path": "west-austin"
+}

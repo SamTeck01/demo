@@ -1,0 +1,451 @@
+{
+ "rank": 16,
+ "slug": "sayed-mahdi-real-estate",
+ "name": "Sayed Mahdi Real Estate",
+ "short": "Sayed Mahdi",
+ "mark": "Sayed Mahdi",
+ "city": "Manama, Bahrain",
+ "title": "Sayed Mahdi Real Estate · A long history in Bahrain property",
+ "description": "Sayed Mahdi Real Estate Agency sells, values and develops property across Bahrain: villas, land and housing schemes.",
+ "email": "info@sayedmahdi.com",
+ "phone": "+973 1724 4399",
+ "address": "Manama<br>Kingdom of Bahrain",
+ "hours": [
+  [
+   "Saturday to Thursday",
+   "8:00 to 13:00, 16:00 to 20:00"
+  ],
+  [
+   "Friday",
+   "Closed"
+  ],
+  [
+   "Valuations",
+   "By appointment"
+  ]
+ ],
+ "currency": "BHD",
+ "locale": "en-BH",
+ "cta": "Book a consultation",
+ "fonts": {
+  "url": "family=Libre+Caslon+Text:wght@400;700&family=Inter:wght@400;500",
+  "display": "'Libre Caslon Text',Georgia,serif",
+  "text": "'Inter',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#f3f3f6",
+  "surface": "#e3e5ee",
+  "ink": "#141a33",
+  "muted": "#4a5170",
+  "accent": "#1c2b5a",
+  "accent-ink": "#ffffff",
+  "field-1": "#1c2b5a",
+  "field-1-ink": "#f3f3f6",
+  "field-2": "#c9a646",
+  "field-2-ink": "#141a33",
+  "display-weight": "400",
+  "display-track": "-0.02em",
+  "display-lead": "1.02",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#1c2b5a",
+  "foot-ink": "#f3f3f6",
+  "mark-size": "15vw"
+ },
+ "nav": [
+  [
+   "Properties",
+   "homes"
+  ],
+  [
+   "Areas",
+   "areas"
+  ],
+  [
+   "Schemes",
+   "calculator"
+  ],
+  [
+   "History",
+   "story"
+  ]
+ ],
+ "hero": {
+  "v": "editorial",
+  "img": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=2400&q=80&auto=format&fit=crop",
+  "alt": "White Mediterranean-style house",
+  "title": "A long history in Bahrain property",
+  "sub": "Sale, valuation and development across the Kingdom, from a family firm whose name Bahrainis have known for generations.",
+  "action": "Browse properties",
+  "specs": [
+   [
+    "Services",
+    "4"
+   ],
+   [
+    "Areas",
+    "All Bahrain"
+   ],
+   [
+    "Languages",
+    "AR · EN"
+   ],
+   [
+    "Base",
+    "Manama"
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "kind": "listings",
+   "title": "Properties for sale",
+   "intro": "Villas, land and apartments across Bahrain, with full documents checked before listing.",
+   "style": "index",
+   "max": [
+    [
+     100000,
+     "BHD 100,000"
+    ],
+    [
+     250000,
+     "BHD 250,000"
+    ],
+    [
+     500000,
+     "BHD 500,000"
+    ]
+   ]
+  },
+  {
+   "kind": "areas",
+   "title": "Across the Kingdom",
+   "intro": "From the villas of Saar to the old houses of Muharraq.",
+   "field": "field"
+  },
+  {
+   "kind": "plan",
+   "title": "Housing scheme instalments",
+   "text": "Many of our schemes are sold on instalments. See a monthly figure for any home.",
+   "field": "",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     40000,
+     600000,
+     1000,
+     145000,
+     "money"
+    ],
+    [
+     "down",
+     "Deposit",
+     5,
+     60,
+     5,
+     20,
+     "pct"
+    ],
+    [
+     "months",
+     "Instalments",
+     12,
+     96,
+     6,
+     60,
+     "n"
+    ]
+   ],
+   "results": [
+    [
+     "down",
+     "Deposit"
+    ],
+    [
+     "monthly",
+     "Each month"
+    ],
+    [
+     "months",
+     "Paid over"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Deposit",
+    "Instalments"
+   ],
+   "fine": "Developer plans differ. We confirm the schedule for each home.",
+   "action": "Ask about a plan"
+  },
+  {
+   "kind": "about",
+   "title": "The name behind the building",
+   "id": "story",
+   "lead": "Sayed Mahdi Real Estate has worked in Bahrain property for decades: selling, valuing and developing.",
+   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Towers against the sky",
+   "over": "Certified experts guide every transaction, from the first valuation to registration at SLRB.",
+   "tile": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Living room with arched windows",
+   "facts": [
+    [
+     "Sale",
+     "Homes and land"
+    ],
+    [
+     "Valuation",
+     "Certified"
+    ],
+    [
+     "Schemes",
+     "Instalments"
+    ],
+    [
+     "Projects",
+     "Development"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Book your consultation",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format&fit=crop",
+   "alt": "White villa with a pool",
+   "needs": [
+    "Buying",
+    "Selling",
+    "A valuation",
+    "A housing scheme"
+   ],
+   "action": "Send",
+   "subject": "Sayed Mahdi consultation"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Saar",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&q=80&auto=format&fit=crop",
+   "text": "Quiet villas, international schools and the Saar compounds.",
+   "facts": [
+    [
+     "Best for",
+     "Families"
+    ],
+    [
+     "Homes",
+     "Villas"
+    ],
+    [
+     "From",
+     "BHD 180,000"
+    ],
+    [
+     "To Manama",
+     "20 min"
+    ]
+   ]
+  },
+  {
+   "name": "Janabiya",
+   "img": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1000&q=80&auto=format&fit=crop",
+   "text": "New villas and large plots near the causeway.",
+   "facts": [
+    [
+     "Best for",
+     "Space"
+    ],
+    [
+     "Homes",
+     "Villas, land"
+    ],
+    [
+     "From",
+     "BHD 160,000"
+    ],
+    [
+     "Causeway",
+     "10 min"
+    ]
+   ]
+  },
+  {
+   "name": "Riffa",
+   "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1000&q=80&auto=format&fit=crop",
+   "text": "Established family neighbourhoods and the golf club.",
+   "facts": [
+    [
+     "Best for",
+     "Families"
+    ],
+    [
+     "Homes",
+     "Villas"
+    ],
+    [
+     "From",
+     "BHD 140,000"
+    ],
+    [
+     "To Manama",
+     "25 min"
+    ]
+   ]
+  },
+  {
+   "name": "Muharraq",
+   "img": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1000&q=80&auto=format&fit=crop",
+   "text": "Old houses, the Pearling Path and the airport next door.",
+   "facts": [
+    [
+     "Best for",
+     "Heritage"
+    ],
+    [
+     "Homes",
+     "Houses"
+    ],
+    [
+     "From",
+     "BHD 90,000"
+    ],
+    [
+     "Airport",
+     "5 min"
+    ]
+   ]
+  },
+  {
+   "name": "Seef",
+   "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&q=80&auto=format&fit=crop",
+   "text": "Apartments by the malls and the coast.",
+   "facts": [
+    [
+     "Best for",
+     "Investors"
+    ],
+    [
+     "Homes",
+     "Apartments"
+    ],
+    [
+     "From",
+     "BHD 75,000"
+    ],
+    [
+     "Yield",
+     "About 6%"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "sm1",
+   "title": "Saar family villa",
+   "area": "Saar",
+   "type": "Villa",
+   "price": 265000,
+   "beds": 5,
+   "baths": 5,
+   "size": "480 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Detached villa with a garden, a majlis and a maid's room.",
+   "status": "New",
+   "rent": false
+  },
+  {
+   "id": "sm2",
+   "title": "Janabiya plot, 600 m²",
+   "area": "Janabiya",
+   "type": "Land",
+   "price": 118000,
+   "beds": 0,
+   "baths": 0,
+   "size": "600 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Residential plot, RA zoning, ready to build.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "sm3",
+   "title": "Riffa villa with pool",
+   "area": "Riffa",
+   "type": "Villa",
+   "price": 210000,
+   "beds": 4,
+   "baths": 4,
+   "size": "390 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Renovated villa near the golf club.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "sm4",
+   "title": "Muharraq heritage house",
+   "area": "Muharraq",
+   "type": "House",
+   "price": 98000,
+   "beds": 4,
+   "baths": 3,
+   "size": "300 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Traditional house near the Pearling Path, ideal to restore.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "sm5",
+   "title": "Seef sea-view apartment",
+   "area": "Seef",
+   "type": "Apartment",
+   "price": 82000,
+   "beds": 2,
+   "baths": 2,
+   "size": "115 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two bedrooms by the malls with sea views.",
+   "status": "Instalments",
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Sayed Mahdi Real Estate Agency",
+   "Kingdom of Bahrain"
+  ],
+  [
+   "Properties",
+   "Areas",
+   "Schemes"
+  ],
+  [
+   "+973 1724 4399",
+   "info@sayedmahdi.com"
+  ],
+  [
+   "Saturday to Thursday",
+   "Morning and evening"
+  ]
+ ],
+ "path": "sayed-mahdi"
+}

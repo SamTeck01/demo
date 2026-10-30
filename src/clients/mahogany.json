@@ -1,0 +1,452 @@
+{
+ "rank": 9,
+ "slug": "mahogany-real-estate",
+ "name": "Mahogany Real Estate",
+ "short": "Mahogany",
+ "mark": "Mahogany",
+ "city": "Decatur, GA",
+ "title": "Mahogany Real Estate · Angellet Minard, Atlanta",
+ "description": "Mahogany Real Estate, led by Angellet Minard, has helped Atlanta families buy and sell 231 homes over 21 years. Based in Decatur.",
+ "email": "Info@MahoganyRealEstate.com",
+ "phone": "404 461 9824",
+ "address": "1 W. Court Square, Suite 750<br>Decatur, GA 30030",
+ "hours": [
+  [
+   "Monday to Friday",
+   "9:00 to 6:00"
+  ],
+  [
+   "Saturday",
+   "10:00 to 3:00"
+  ],
+  [
+   "Sunday",
+   "By appointment"
+  ]
+ ],
+ "currency": "USD",
+ "cta": "Let's talk",
+ "data": {
+  "taxRate": 0.011,
+  "insure": 140
+ },
+ "fonts": {
+  "url": "family=Cormorant:wght@500;600&family=Karla:wght@400;500",
+  "display": "'Cormorant',Georgia,serif",
+  "text": "'Karla',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#231210",
+  "surface": "#33201c",
+  "ink": "#f4ece6",
+  "muted": "#c9b3a8",
+  "accent": "#e1a85c",
+  "accent-ink": "#231210",
+  "field-1": "#5a2a1e",
+  "field-1-ink": "#f4ece6",
+  "field-2": "#f4ece6",
+  "field-2-ink": "#231210",
+  "display-weight": "500",
+  "display-track": "-0.02em",
+  "display-lead": "0.95",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#f4ece6",
+  "foot-ink": "#231210",
+  "mark-size": "18vw"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Neighbourhoods",
+   "areas"
+  ],
+  [
+   "Payments",
+   "calculator"
+  ],
+  [
+   "Angellet",
+   "story"
+  ]
+ ],
+ "hero": {
+  "v": "film",
+  "img": "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Atlanta skyline at dusk",
+  "title": "Mahogany",
+  "scrim": 0.38,
+  "sub": "Twenty-one years and 231 homes across metro Atlanta. Angellet Minard and her team, from Decatur's Court Square.",
+  "action": "See homes"
+ },
+ "sections": [
+  {
+   "kind": "statement",
+   "title": "Built to last",
+   "img": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Warm living room with wood floors",
+   "text": "Mahogany is the wood people pass down. We'd like your home to be the same: bought well, kept well, and sold well when the time comes.",
+   "note": "First-time buyers, growing families, investors and sellers across DeKalb, Fulton and Coweta."
+  },
+  {
+   "kind": "listings",
+   "title": "Homes we're showing",
+   "intro": "From starter homes to family houses, filtered by neighbourhood and price.",
+   "style": "mosaic",
+   "max": [
+    [
+     300000,
+     "$300k"
+    ],
+    [
+     450000,
+     "$450k"
+    ],
+    [
+     750000,
+     "$750k"
+    ]
+   ]
+  },
+  {
+   "kind": "areas",
+   "title": "Around Atlanta",
+   "intro": "Pick a neighbourhood to see prices and what living there is like.",
+   "field": "field"
+  },
+  {
+   "kind": "mortgage",
+   "title": "What will you pay?",
+   "text": "Georgia taxes are gentler than most. See the real monthly number in seconds.",
+   "field": "",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     120000,
+     1200000,
+     5000,
+     365000,
+     "money"
+    ],
+    [
+     "down",
+     "Down payment",
+     3,
+     40,
+     1,
+     20,
+     "pct"
+    ],
+    [
+     "rate",
+     "Interest rate",
+     3,
+     9,
+     0.125,
+     6.5,
+     "pct"
+    ],
+    [
+     "years",
+     "Loan term",
+     15,
+     30,
+     15,
+     30,
+     "yr"
+    ]
+   ],
+   "results": [
+    [
+     "pi",
+     "Loan payment"
+    ],
+    [
+     "all",
+     "With tax and insurance"
+    ],
+    [
+     "total",
+     "Total interest"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)",
+    "var(--surface)"
+   ],
+   "legend": [
+    "Loan",
+    "Property tax",
+    "Insurance"
+   ],
+   "fine": "Assumes about 1.1% tax. Your lender confirms the rest.",
+   "action": "Talk to us about financing"
+  },
+  {
+   "kind": "about",
+   "title": "Angellet Minard",
+   "id": "story",
+   "lead": "Owner of Mahogany Real Estate since 2013 and an Atlanta agent for 21 years.",
+   "img": "https://images.unsplash.com/photo-1494526585095-c41746248156?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Suburban homes at dusk",
+   "over": "Clients' reviews come back to the same two things: her professionalism and how well she keeps them informed.",
+   "tile": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Brick family home",
+   "facts": [
+    [
+     "231",
+     "Homes sold"
+    ],
+    [
+     "21",
+     "Years in real estate"
+    ],
+    [
+     "4.7",
+     "Birdeye rating"
+    ],
+    [
+     "2013",
+     "Mahogany founded"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Visit Court Square",
+   "img": "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Modern home with a gable roof",
+   "needs": [
+    "Buying my first home",
+    "Buying again",
+    "Selling",
+    "Investing"
+   ],
+   "action": "Send to Angellet",
+   "subject": "Mahogany Real Estate enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Decatur",
+   "img": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1000&q=80&auto=format&fit=crop",
+   "text": "The square, the festivals and the City Schools of Decatur, ten minutes from downtown.",
+   "facts": [
+    [
+     "Median",
+     "$640k"
+    ],
+    [
+     "Schools",
+     "City of Decatur"
+    ],
+    [
+     "Downtown",
+     "15 min"
+    ],
+    [
+     "Feel",
+     "Walkable"
+    ]
+   ]
+  },
+  {
+   "name": "East Atlanta",
+   "img": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1000&q=80&auto=format&fit=crop",
+   "text": "Bungalows, the village bars and the Beltline nearby.",
+   "facts": [
+    [
+     "Median",
+     "$480k"
+    ],
+    [
+     "Schools",
+     "APS"
+    ],
+    [
+     "Downtown",
+     "12 min"
+    ],
+    [
+     "Feel",
+     "Lively"
+    ]
+   ]
+  },
+  {
+   "name": "Stone Mountain",
+   "img": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1000&q=80&auto=format&fit=crop",
+   "text": "Space, trees and the mountain park, with gentler prices.",
+   "facts": [
+    [
+     "Median",
+     "$320k"
+    ],
+    [
+     "Schools",
+     "DeKalb"
+    ],
+    [
+     "Downtown",
+     "30 min"
+    ],
+    [
+     "Feel",
+     "Suburban"
+    ]
+   ]
+  },
+  {
+   "name": "Newnan",
+   "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1000&q=80&auto=format&fit=crop",
+   "text": "Small-town Georgia south of the city, with historic homes and big lots.",
+   "facts": [
+    [
+     "Median",
+     "$360k"
+    ],
+    [
+     "Schools",
+     "Coweta"
+    ],
+    [
+     "Downtown",
+     "45 min"
+    ],
+    [
+     "Feel",
+     "Small town"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "mh1",
+   "title": "Decatur cottage near the square",
+   "area": "Decatur",
+   "type": "House",
+   "price": 589000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,540 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Porch, original floors and a ten-minute walk to the square.",
+   "status": "New",
+   "rent": false
+  },
+  {
+   "id": "mh2",
+   "title": "East Atlanta bungalow",
+   "area": "East Atlanta",
+   "type": "House",
+   "price": 449000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,380 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Renovated bungalow near the village, with a deep back yard.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "mh3",
+   "title": "Stone Mountain family home",
+   "area": "Stone Mountain",
+   "type": "House",
+   "price": 315000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,240 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Four bedrooms, a finished basement and a fenced yard.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "mh4",
+   "title": "Newnan historic home",
+   "area": "Newnan",
+   "type": "House",
+   "price": 425000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,600 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "1910 home with a wraparound porch, a block from downtown Newnan.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "mh5",
+   "title": "Decatur townhouse",
+   "area": "Decatur",
+   "type": "Townhouse",
+   "price": 499000,
+   "beds": 3,
+   "baths": 3,
+   "size": "1,820 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Newer townhouse with a garage, a short walk to MARTA.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "mh6",
+   "title": "East Atlanta starter",
+   "area": "East Atlanta",
+   "type": "House",
+   "price": 335000,
+   "beds": 2,
+   "baths": 1,
+   "size": "1,050 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "A first home with good bones and a garden.",
+   "status": "Price drop",
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Mahogany Real Estate, LLC",
+   "1 W. Court Square, Decatur"
+  ],
+  [
+   "Homes",
+   "Neighbourhoods",
+   "Payments"
+  ],
+  [
+   "404 461 9824",
+   "Info@MahoganyRealEstate.com"
+  ],
+  [
+   "Angellet Minard",
+   "Owner"
+  ]
+ ],
+ "path": "mahogany"
+}

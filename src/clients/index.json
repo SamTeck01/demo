@@ -1,0 +1,122 @@
+[
+ {
+  "rank": 1,
+  "path": "landmark",
+  "name": "Landmark Bahrain",
+  "city": "Manama, Bahrain"
+ },
+ {
+  "rank": 2,
+  "path": "habitat-hunters",
+  "name": "Habitat Hunters",
+  "city": "Austin, TX"
+ },
+ {
+  "rank": 3,
+  "path": "west-austin",
+  "name": "West Austin Properties",
+  "city": "Austin, TX"
+ },
+ {
+  "rank": 4,
+  "path": "austin-boutique",
+  "name": "Austin Boutique Realty",
+  "city": "Austin, TX 78703"
+ },
+ {
+  "rank": 5,
+  "path": "graham-central",
+  "name": "Graham Central Properties",
+  "city": "Austin, TX"
+ },
+ {
+  "rank": 6,
+  "path": "ocean-club",
+  "name": "Ocean Club Realty",
+  "city": "Key Biscayne, FL"
+ },
+ {
+  "rank": 7,
+  "path": "aria-global",
+  "name": "Aria Global Realty",
+  "city": "Coral Gables & Miami, FL"
+ },
+ {
+  "rank": 8,
+  "path": "cedar-park-living",
+  "name": "Cedar Park Living",
+  "city": "Cedar Park, TX"
+ },
+ {
+  "rank": 9,
+  "path": "mahogany",
+  "name": "Mahogany Real Estate",
+  "city": "Decatur, GA"
+ },
+ {
+  "rank": 10,
+  "path": "glory",
+  "name": "Glory Real Estate",
+  "city": "Manama, Bahrain"
+ },
+ {
+  "rank": 11,
+  "path": "taskeen",
+  "name": "Taskeen Al Oula Real Estate",
+  "city": "Kuwait City, Kuwait"
+ },
+ {
+  "rank": 12,
+  "path": "wabrah",
+  "name": "Wabrah Real Estate",
+  "city": "Doha, Qatar"
+ },
+ {
+  "rank": 13,
+  "path": "bin-ajlan",
+  "name": "Bin Ajlan Properties",
+  "city": "Doha, Qatar"
+ },
+ {
+  "rank": 14,
+  "path": "primestate",
+  "name": "PrimeState Properties",
+  "city": "Doha, Qatar"
+ },
+ {
+  "rank": 15,
+  "path": "mareena",
+  "name": "Mareena Towers Real Estate",
+  "city": "Al-Mahboula, Kuwait"
+ },
+ {
+  "rank": 16,
+  "path": "sayed-mahdi",
+  "name": "Sayed Mahdi Real Estate",
+  "city": "Manama, Bahrain"
+ },
+ {
+  "rank": 17,
+  "path": "gulf-avenues",
+  "name": "Gulf Avenues Real Estate",
+  "city": "Doha, Qatar"
+ },
+ {
+  "rank": 18,
+  "path": "laala",
+  "name": "La'ala Al Kuwait Real Estate",
+  "city": "Kuwait City, Kuwait"
+ },
+ {
+  "rank": 19,
+  "path": "al-jrefe",
+  "name": "Al Jrefe Real Estate",
+  "city": "Riyadh, Saudi Arabia"
+ },
+ {
+  "rank": 20,
+  "path": "altruistic",
+  "name": "Altruistic Homes",
+  "city": "Miami, FL"
+ }
+]

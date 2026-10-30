@@ -1,0 +1,381 @@
+{
+ "rank": 17,
+ "slug": "gulf-avenues",
+ "name": "Gulf Avenues Real Estate",
+ "short": "Gulf Avenues",
+ "mark": "Gulf Avenues",
+ "city": "Doha, Qatar",
+ "title": "Gulf Avenues Real Estate · Doha sales and leasing",
+ "description": "Gulf Avenues Real Estate sells and leases apartments and villas across Doha: The Pearl, Lusail, West Bay and Al Sadd.",
+ "email": "info@gulfavenues.com",
+ "phone": "+974 4000 0000",
+ "address": "Doha<br>State of Qatar",
+ "hours": [
+  [
+   "Sunday to Thursday",
+   "8:30 to 17:30"
+  ],
+  [
+   "Saturday",
+   "10:00 to 14:00"
+  ],
+  [
+   "Friday",
+   "Closed"
+  ]
+ ],
+ "currency": "QAR",
+ "locale": "en-QA",
+ "cta": "Speak to an agent",
+ "fonts": {
+  "url": "family=Familjen+Grotesk:wght@400;500;700",
+  "display": "'Familjen Grotesk',system-ui,sans-serif",
+  "text": "'Familjen Grotesk',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#121212",
+  "surface": "#1e1e1e",
+  "ink": "#f2efe9",
+  "muted": "#a8a39a",
+  "accent": "#d9b26f",
+  "accent-ink": "#121212",
+  "field-1": "#d9b26f",
+  "field-1-ink": "#121212",
+  "field-2": "#f2efe9",
+  "field-2-ink": "#121212",
+  "display-weight": "700",
+  "display-track": "-0.045em",
+  "display-lead": "0.88",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#d9b26f",
+  "foot-ink": "#121212",
+  "mark-size": "13vw",
+  "brand-weight": "700"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Districts",
+   "areas"
+  ],
+  [
+   "Returns",
+   "calculator"
+  ],
+  [
+   "Contact",
+   "visit"
+  ]
+ ],
+ "hero": {
+  "v": "poster",
+  "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Glass towers against a blue sky",
+  "title": "Every avenue in Doha",
+  "sub": "Apartments and villas for sale and lease across Qatar's capital, from agents who know each district street by street.",
+  "action": "Browse homes",
+  "second": "Speak to an agent"
+ },
+ "sections": [
+  {
+   "kind": "areas",
+   "title": "Pick a district",
+   "intro": "Each part of Doha has a different rhythm. Choose one."
+  },
+  {
+   "kind": "listings",
+   "title": "Homes on the market",
+   "intro": "Sale and lease, in Qatari riyals.",
+   "style": "mosaic",
+   "max": [
+    [
+     12000,
+     "Leases"
+    ],
+    [
+     2000000,
+     "QAR 2M"
+    ],
+    [
+     5000000,
+     "QAR 5M"
+    ]
+   ]
+  },
+  {
+   "kind": "yield",
+   "title": "Buying to let?",
+   "text": "See the yield on a freehold home in The Pearl or Lusail.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Purchase price",
+     250000,
+     10000000,
+     25000,
+     1600000,
+     "money"
+    ],
+    [
+     "rent",
+     "Monthly rent",
+     1000,
+     50000,
+     250,
+     9000,
+     "money"
+    ],
+    [
+     "costs",
+     "Running costs",
+     5,
+     35,
+     1,
+     15,
+     "pct"
+    ]
+   ],
+   "results": [
+    [
+     "gross",
+     "Gross yield"
+    ],
+    [
+     "net",
+     "Net yield"
+    ],
+    [
+     "year",
+     "Net income a year"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Income you keep",
+    "Service charges, upkeep, vacancy"
+   ],
+   "fine": "An estimate for comparing homes. We give you real figures for any listing.",
+   "action": "Ask for this home's figures"
+  },
+  {
+   "kind": "visit",
+   "title": "Talk to us",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format&fit=crop",
+   "alt": "White villa with a pool",
+   "needs": [
+    "Buying",
+    "Leasing",
+    "Investing"
+   ],
+   "action": "Send",
+   "subject": "Gulf Avenues enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "The Pearl",
+   "img": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1000&q=80&auto=format&fit=crop",
+   "text": "Marinas, cafés and freehold towers on the island.",
+   "facts": [
+    [
+     "Ownership",
+     "Freehold"
+    ],
+    [
+     "2-bed rent",
+     "QAR 10,500"
+    ],
+    [
+     "Feel",
+     "Marina"
+    ],
+    [
+     "To West Bay",
+     "15 min"
+    ]
+   ]
+  },
+  {
+   "name": "Lusail",
+   "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&q=80&auto=format&fit=crop",
+   "text": "Qatar's new city, the tram and the waterfront boulevard.",
+   "facts": [
+    [
+     "Ownership",
+     "Freehold"
+    ],
+    [
+     "2-bed rent",
+     "QAR 9,000"
+    ],
+    [
+     "Feel",
+     "New"
+    ],
+    [
+     "To West Bay",
+     "20 min"
+    ]
+   ]
+  },
+  {
+   "name": "West Bay",
+   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1000&q=80&auto=format&fit=crop",
+   "text": "Towers, offices and the Corniche.",
+   "facts": [
+    [
+     "Ownership",
+     "Freehold zones"
+    ],
+    [
+     "2-bed rent",
+     "QAR 9,500"
+    ],
+    [
+     "Feel",
+     "Business"
+    ],
+    [
+     "Airport",
+     "20 min"
+    ]
+   ]
+  },
+  {
+   "name": "Al Sadd",
+   "img": "https://images.unsplash.com/photo-1597047084897-51e81819a499?w=1000&q=80&auto=format&fit=crop",
+   "text": "Central, busy and close to everything.",
+   "facts": [
+    [
+     "Ownership",
+     "Lease"
+    ],
+    [
+     "2-bed rent",
+     "QAR 7,000"
+    ],
+    [
+     "Feel",
+     "Central"
+    ],
+    [
+     "Malls",
+     "Walkable"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "ga1",
+   "title": "Pearl two-bedroom, Porto Arabia",
+   "area": "The Pearl",
+   "type": "Apartment",
+   "price": 10500,
+   "beds": 2,
+   "baths": 3,
+   "size": "140 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Marina views, furnished, two parking spaces.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ga2",
+   "title": "Lusail one-bedroom",
+   "area": "Lusail",
+   "type": "Apartment",
+   "price": 1050000,
+   "beds": 1,
+   "baths": 2,
+   "size": "84 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Freehold one-bedroom near the tram.",
+   "status": "For sale",
+   "rent": false
+  },
+  {
+   "id": "ga3",
+   "title": "West Bay three-bedroom",
+   "area": "West Bay",
+   "type": "Apartment",
+   "price": 2450000,
+   "beds": 3,
+   "baths": 4,
+   "size": "190 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "High floor with a Corniche view.",
+   "status": "For sale",
+   "rent": false
+  },
+  {
+   "id": "ga4",
+   "title": "Al Sadd family apartment",
+   "area": "Al Sadd",
+   "type": "Apartment",
+   "price": 7200,
+   "beds": 3,
+   "baths": 3,
+   "size": "160 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Central, unfurnished, near the malls.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ga5",
+   "title": "Pearl townhouse",
+   "area": "The Pearl",
+   "type": "Townhouse",
+   "price": 3950000,
+   "beds": 3,
+   "baths": 4,
+   "size": "280 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Waterfront townhouse in Viva Bahriya.",
+   "status": "For sale",
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Gulf Avenues Real Estate",
+   "Doha, Qatar"
+  ],
+  [
+   "Homes",
+   "Districts",
+   "Returns"
+  ],
+  [
+   "info@gulfavenues.com",
+   "Doha"
+  ],
+  [
+   "Sunday to Thursday",
+   "8:30 to 17:30"
+  ]
+ ],
+ "path": "gulf-avenues"
+}

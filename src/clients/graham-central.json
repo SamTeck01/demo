@@ -1,0 +1,442 @@
+{
+ "rank": 5,
+ "slug": "graham-central-properties",
+ "name": "Graham Central Properties",
+ "short": "Graham Central",
+ "mark": "Graham Central",
+ "city": "Austin, TX",
+ "title": "Graham Central Properties · Central Austin sales and leasing",
+ "description": "Graham Central Properties sells and leases homes across central Austin and the Hill Country. Search listings and past sales.",
+ "email": "kyle@grahamcentralproperties.com",
+ "phone": "512 452 2000",
+ "address": "6002 Lonesome Valley Trail<br>Austin, TX 78731",
+ "hours": [
+  [
+   "Monday to Friday",
+   "9:00 to 6:00"
+  ],
+  [
+   "Saturday",
+   "By appointment"
+  ],
+  [
+   "Leasing line",
+   "Open weekdays"
+  ]
+ ],
+ "currency": "USD",
+ "cta": "Call the office",
+ "data": {
+  "taxRate": 0.019,
+  "insure": 190
+ },
+ "fonts": {
+  "url": "family=Archivo:wght@400;500;800",
+  "display": "'Archivo',system-ui,sans-serif",
+  "text": "'Archivo',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#ffffff",
+  "surface": "#f1efe8",
+  "ink": "#141414",
+  "muted": "#555555",
+  "accent": "#d7262e",
+  "accent-ink": "#ffffff",
+  "field-1": "#f5c33b",
+  "field-1-ink": "#141414",
+  "field-2": "#141414",
+  "field-2-ink": "#ffffff",
+  "display-weight": "800",
+  "display-track": "-0.045em",
+  "display-lead": "0.88",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#f5c33b",
+  "foot-ink": "#141414",
+  "mark-size": "12.6vw",
+  "brand-weight": "800"
+ },
+ "nav": [
+  [
+   "Listings",
+   "homes"
+  ],
+  [
+   "Areas",
+   "areas"
+  ],
+  [
+   "Payments",
+   "calculator"
+  ],
+  [
+   "Team",
+   "story"
+  ]
+ ],
+ "hero": {
+  "v": "poster",
+  "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=2400&q=80&auto=format&fit=crop",
+  "alt": "White two-storey house with a deep porch",
+  "title": "Central Austin, sold.",
+  "sub": "Sales and leasing across Tarrytown, Bryker Woods and the Hill Country, from a team that has worked these streets for years.",
+  "action": "See current listings",
+  "second": "Lease a home"
+ },
+ "sections": [
+  {
+   "kind": "listings",
+   "title": "Current listings",
+   "intro": "For sale and for lease. Filter by area and price; save the ones you like.",
+   "style": "rail",
+   "max": [
+    [
+     600000,
+     "$600k"
+    ],
+    [
+     1200000,
+     "$1.2M"
+    ],
+    [
+     2500000,
+     "$2.5M"
+    ]
+   ]
+  },
+  {
+   "kind": "areas",
+   "title": "Where we work",
+   "intro": "From the old streets west of Lamar to ranch land in the Hill Country."
+  },
+  {
+   "kind": "mortgage",
+   "title": "What would it cost a month?",
+   "text": "A quick, honest number with Travis County tax included.",
+   "field": "field-2",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     200000,
+     4000000,
+     5000,
+     1150000,
+     "money"
+    ],
+    [
+     "down",
+     "Down payment",
+     3,
+     40,
+     1,
+     20,
+     "pct"
+    ],
+    [
+     "rate",
+     "Interest rate",
+     3,
+     9,
+     0.125,
+     6.5,
+     "pct"
+    ],
+    [
+     "years",
+     "Loan term",
+     15,
+     30,
+     15,
+     30,
+     "yr"
+    ]
+   ],
+   "results": [
+    [
+     "pi",
+     "Loan payment"
+    ],
+    [
+     "all",
+     "With tax and insurance"
+    ],
+    [
+     "total",
+     "Total interest"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)",
+    "var(--surface)"
+   ],
+   "legend": [
+    "Loan",
+    "Property tax",
+    "Insurance"
+   ],
+   "fine": "Uses a 1.9% tax estimate. A lender confirms exact figures.",
+   "action": "Talk to us about financing"
+  },
+  {
+   "kind": "about",
+   "title": "A central Austin team",
+   "lead": "Kyle Graham leads a team of agents who handle sales, leasing and commercial property across Central Texas.",
+   "img": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Austin skyline from across the river",
+   "over": "One office for buying, selling, leasing and commercial, so you never start over with someone new.",
+   "tile": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "Craftsman bungalow",
+   "facts": [
+    [
+     "6+",
+     "Agents"
+    ],
+    [
+     "30",
+     "Listings and recent sales"
+    ],
+    [
+     "Sales",
+     "and leasing"
+    ],
+    [
+     "Central",
+     "Texas, ranch to condo"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Stop by the office",
+   "img": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Modern house on a green lawn",
+   "needs": [
+    "Buying",
+    "Selling",
+    "Leasing",
+    "Commercial"
+   ],
+   "action": "Send to the team",
+   "subject": "Graham Central enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Tarrytown",
+   "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1000&q=80&auto=format&fit=crop",
+   "text": "Classic homes and big oaks between MoPac and the lake, where median prices sit around $1.5M.",
+   "facts": [
+    [
+     "Median",
+     "$1.5M"
+    ],
+    [
+     "Homes",
+     "1930s–new"
+    ],
+    [
+     "Schools",
+     "Casis ES"
+    ],
+    [
+     "Feel",
+     "Leafy, walkable"
+    ]
+   ]
+  },
+  {
+   "name": "Bryker Woods",
+   "img": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1000&q=80&auto=format&fit=crop",
+   "text": "Bungalows near Shoal Creek, Seton and the old Central Market.",
+   "facts": [
+    [
+     "Median",
+     "$1.3M"
+    ],
+    [
+     "Homes",
+     "Bungalows"
+    ],
+    [
+     "Schools",
+     "Bryker Woods ES"
+    ],
+    [
+     "Feel",
+     "Small-town"
+    ]
+   ]
+  },
+  {
+   "name": "Northwest Hills",
+   "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80&auto=format&fit=crop",
+   "text": "Views, trails and mid-century homes on the hills above MoPac.",
+   "facts": [
+    [
+     "Median",
+     "$1.1M"
+    ],
+    [
+     "Homes",
+     "1960s–80s"
+    ],
+    [
+     "Schools",
+     "Doss ES"
+    ],
+    [
+     "Feel",
+     "Quiet, green"
+    ]
+   ]
+  },
+  {
+   "name": "Hill Country",
+   "img": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=1000&q=80&auto=format&fit=crop",
+   "text": "Acreage and ranches west of the city for room to breathe.",
+   "facts": [
+    [
+     "From",
+     "$900k"
+    ],
+    [
+     "Homes",
+     "Ranch, acreage"
+    ],
+    [
+     "Schools",
+     "Varies"
+    ],
+    [
+     "Feel",
+     "Wide open"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "gc1",
+   "title": "4380 River Garden Trail",
+   "area": "Northwest Hills",
+   "type": "House",
+   "price": 1385000,
+   "beds": 4,
+   "baths": 3,
+   "size": "3,120 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Pool, a three-car garage and a living room that opens onto the trees.",
+   "status": "New",
+   "rent": false
+  },
+  {
+   "id": "gc2",
+   "title": "2120 West 10th Street",
+   "area": "Tarrytown",
+   "type": "House",
+   "price": 1655000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,940 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "1948 home on a 0.36-acre lot, updated and ready, a block from Westenfield Park.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "gc3",
+   "title": "Bryker Woods bungalow",
+   "area": "Bryker Woods",
+   "type": "House",
+   "price": 1180000,
+   "beds": 2,
+   "baths": 2,
+   "size": "1,410 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Porch, garden and a short walk to Shoal Creek.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "gc4",
+   "title": "Hill Country ranch, 12 acres",
+   "area": "Hill Country",
+   "type": "Ranch",
+   "price": 1790000,
+   "beds": 4,
+   "baths": 3,
+   "size": "3,300 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Stone ranch house on 12 acres with a barn and a seasonal creek.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "gc5",
+   "title": "Tarrytown garage apartment",
+   "area": "Tarrytown",
+   "type": "Apartment",
+   "price": 2350,
+   "beds": 1,
+   "baths": 1,
+   "size": "640 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Lease: quiet garage apartment with its own entrance and parking.",
+   "status": "For lease",
+   "rent": true
+  },
+  {
+   "id": "gc6",
+   "title": "Northwest Hills family home",
+   "area": "Northwest Hills",
+   "type": "House",
+   "price": 985000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,640 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Updated kitchen, a big deck and Doss Elementary nearby.",
+   "status": null,
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Graham Central Properties",
+   "6002 Lonesome Valley Trail, Austin"
+  ],
+  [
+   "Listings",
+   "Areas",
+   "Payments"
+  ],
+  [
+   "512 452 2000",
+   "kyle@grahamcentralproperties.com"
+  ],
+  [
+   "Sales and leasing",
+   "Central Texas"
+  ]
+ ],
+ "path": "graham-central"
+}

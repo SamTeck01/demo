@@ -1,0 +1,316 @@
+{
+ "rank": 10,
+ "slug": "glory-real-estate",
+ "name": "Glory Real Estate",
+ "short": "Glory Real Estate",
+ "mark": "Dilmunia",
+ "city": "Manama, Bahrain",
+ "title": "Glory Real Estate · Breeze of Dilmunia, freehold from BHD 63,000",
+ "description": "Freehold island residences at Breeze of Dilmunia, Bahrain, from BHD 63,000 with a five-year plan at 0% interest. Every nationality may buy.",
+ "email": "info@glorybh.com",
+ "phone": "+973 3822 6666",
+ "address": "Dilmunia Island<br>Muharraq, Kingdom of Bahrain",
+ "hours": [
+  [
+   "Saturday to Thursday",
+   "9:00 to 18:00"
+  ],
+  [
+   "Friday",
+   "WhatsApp only"
+  ],
+  [
+   "Site visits",
+   "Daily, by booking"
+  ]
+ ],
+ "currency": "BHD",
+ "locale": "en-BH",
+ "cta": "Register interest",
+ "fonts": {
+  "url": "family=Marcellus&family=Jost:wght@400;500",
+  "display": "'Marcellus',Georgia,serif",
+  "text": "'Jost',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#f2f4f3",
+  "surface": "#dde6e5",
+  "ink": "#0f2930",
+  "muted": "#46606a",
+  "accent": "#e0663e",
+  "accent-ink": "#ffffff",
+  "field-1": "#0f5e6e",
+  "field-1-ink": "#f2f4f3",
+  "field-2": "#0f2930",
+  "field-2-ink": "#f2f4f3",
+  "display-weight": "400",
+  "display-track": "-0.01em",
+  "display-lead": "0.95",
+  "btn-radius": "999px",
+  "radius": "0",
+  "foot-bg": "#0f5e6e",
+  "foot-ink": "#f2f4f3",
+  "mark-size": "17vw"
+ },
+ "nav": [
+  [
+   "Residences",
+   "homes"
+  ],
+  [
+   "Payment plan",
+   "calculator"
+  ],
+  [
+   "The island",
+   "about-us"
+  ],
+  [
+   "Visit",
+   "visit"
+  ]
+ ],
+ "hero": {
+  "v": "poster",
+  "img": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=2400&q=80&auto=format&fit=crop",
+  "alt": "White residence with a terrace pool",
+  "title": "Breeze of Dilmunia",
+  "sub": "Freehold island homes from BHD 63,000. Five years to pay at 0% interest, about BHD 735 a month. Every nationality welcome.",
+  "action": "See the residences",
+  "second": "WhatsApp us"
+ },
+ "sections": [
+  {
+   "kind": "statement",
+   "title": "The land of the living",
+   "img": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Glass staircase beside a pool",
+   "text": "Bahrain's oldest name is Dilmun. Dilmunia is its newest island: beaches, a promenade and a health district, ten minutes from the airport.",
+   "note": "Freehold title for buyers of every nationality. Crypto payments accepted."
+  },
+  {
+   "kind": "listings",
+   "title": "Choose your residence",
+   "intro": "Studios to townhouses. Every price below includes the 0% five-year plan.",
+   "style": "rail",
+   "max": [
+    [
+     70000,
+     "BHD 70,000"
+    ],
+    [
+     100000,
+     "BHD 100,000"
+    ],
+    [
+     150000,
+     "BHD 150,000"
+    ]
+   ]
+  },
+  {
+   "kind": "plan",
+   "title": "Your plan, to the dinar",
+   "text": "Set a deposit and the term. Glory's standard plan is five years with no interest.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     40000,
+     250000,
+     1000,
+     63000,
+     "money"
+    ],
+    [
+     "down",
+     "Deposit",
+     5,
+     60,
+     5,
+     20,
+     "pct"
+    ],
+    [
+     "months",
+     "Instalments",
+     12,
+     96,
+     6,
+     60,
+     "n"
+    ]
+   ],
+   "results": [
+    [
+     "down",
+     "Deposit"
+    ],
+    [
+     "monthly",
+     "Each month"
+    ],
+    [
+     "months",
+     "Paid over"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Deposit",
+    "Instalments"
+   ],
+   "fine": "Developer plans differ. We confirm the schedule for each home.",
+   "action": "Ask about a plan"
+  },
+  {
+   "kind": "process",
+   "title": "From first look to keys",
+   "id": "how",
+   "steps": [
+    [
+     "Register interest",
+     "Send a WhatsApp or the form below. We reply the same day."
+    ],
+    [
+     "Visit the island",
+     "We meet you at the show apartment on Dilmunia and walk the promenade."
+    ],
+    [
+     "Reserve and sign",
+     "A small reservation fee holds the unit; the sale contract follows within the week."
+    ],
+    [
+     "Pay monthly, move in",
+     "Instalments run over five years at 0% interest, with handover on completion."
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Visit the show home",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format&fit=crop",
+   "alt": "White villa beside a pool",
+   "needs": [
+    "A studio",
+    "A one-bedroom",
+    "A two-bedroom",
+    "A townhouse"
+   ],
+   "action": "Register my interest",
+   "subject": "Breeze of Dilmunia interest"
+  }
+ ],
+ "listings": [
+  {
+   "id": "gr1",
+   "title": "Studio with sea breeze",
+   "area": "Dilmunia",
+   "type": "Studio",
+   "price": 63000,
+   "beds": 1,
+   "baths": 1,
+   "size": "48 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "The entry home: a studio with a balcony, a fitted kitchen and residents' pool. From BHD 735 a month.",
+   "status": "From",
+   "rent": false
+  },
+  {
+   "id": "gr2",
+   "title": "One-bedroom, pool view",
+   "area": "Dilmunia",
+   "type": "Apartment",
+   "price": 89000,
+   "beds": 1,
+   "baths": 2,
+   "size": "76 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "One bedroom with a long balcony over the residents' pool.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "gr3",
+   "title": "Two-bedroom corner",
+   "area": "Dilmunia",
+   "type": "Apartment",
+   "price": 128000,
+   "beds": 2,
+   "baths": 2,
+   "size": "118 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Corner apartment with light on two sides and a view to the beach.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "gr4",
+   "title": "Three-bedroom family home",
+   "area": "Dilmunia",
+   "type": "Apartment",
+   "price": 165000,
+   "beds": 3,
+   "baths": 3,
+   "size": "156 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Family-sized apartment with a maid's room and two parking bays.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "gr5",
+   "title": "Beach townhouse",
+   "area": "Dilmunia",
+   "type": "Townhouse",
+   "price": 228000,
+   "beds": 3,
+   "baths": 4,
+   "size": "210 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Townhouse a short walk from the beach, with a roof terrace and garden.",
+   "status": "Limited",
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Glory Real Estate",
+   "Breeze of Dilmunia sales"
+  ],
+  [
+   "Residences",
+   "Payment plan",
+   "Visit"
+  ],
+  [
+   "+973 3822 6666",
+   "info@glorybh.com"
+  ],
+  [
+   "Gulnaz Amangeldinova",
+   "Founder"
+  ]
+ ],
+ "path": "glory",
+ "areas": []
+}

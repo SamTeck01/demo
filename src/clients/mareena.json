@@ -1,0 +1,292 @@
+{
+ "rank": 15,
+ "slug": "mareena-towers",
+ "name": "Mareena Towers Real Estate",
+ "short": "Mareena Towers",
+ "mark": "Mareena",
+ "city": "Al-Mahboula, Kuwait",
+ "title": "Mareena Towers · Furnished apartments on Kuwait's coastal road",
+ "description": "Furnished and unfurnished apartments in Mareena Tower on the coastal road at Al-Mahboula, Kuwait. Open 24 hours, every day.",
+ "email": "info@mareenatowers.com",
+ "phone": "+965 6694 6640",
+ "address": "Block 2, Building 22, Tower 20<br>Coastal Road, Al-Mahboula, Kuwait",
+ "hours": [
+  [
+   "Reception",
+   "24 hours, 365 days"
+  ],
+  [
+   "Sales office",
+   "Saturday to Thursday"
+  ],
+  [
+   "Friday",
+   "Reception only"
+  ]
+ ],
+ "currency": "KWD",
+ "locale": "en-KW",
+ "cta": "Reserve",
+ "fonts": {
+  "url": "family=Josefin+Sans:wght@300;400;600",
+  "display": "'Josefin Sans',system-ui,sans-serif",
+  "text": "'Josefin Sans',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#07131d",
+  "surface": "#10212f",
+  "ink": "#e9f1f6",
+  "muted": "#94aab9",
+  "accent": "#ffd166",
+  "accent-ink": "#07131d",
+  "field-1": "#e9f1f6",
+  "field-1-ink": "#07131d",
+  "field-2": "#123247",
+  "field-2-ink": "#e9f1f6",
+  "display-weight": "300",
+  "display-track": "-0.03em",
+  "display-lead": "0.95",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#123247",
+  "foot-ink": "#e9f1f6",
+  "mark-size": "21vw"
+ },
+ "nav": [
+  [
+   "Apartments",
+   "homes"
+  ],
+  [
+   "The tower",
+   "about-us"
+  ],
+  [
+   "Investors",
+   "calculator"
+  ],
+  [
+   "Reserve",
+   "visit"
+  ]
+ ],
+ "hero": {
+  "v": "film",
+  "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Tower lit against the sky",
+  "title": "Mareena",
+  "scrim": 0.45,
+  "sub": "Furnished apartments on the coastal road at Al-Mahboula, with reception, security and maintenance 24 hours a day, every day of the year.",
+  "action": "See apartments"
+ },
+ "sections": [
+  {
+   "kind": "statement",
+   "title": "Open all night",
+   "img": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Furnished apartment living room",
+   "text": "Most buildings close their office at five. Ours never closes. Reception, security and maintenance work around the clock, 365 days a year.",
+   "note": "Daily, monthly and yearly stays. Logistics and moving services on request."
+  },
+  {
+   "kind": "listings",
+   "title": "Apartments",
+   "intro": "Furnished and unfurnished, by the month, in Kuwaiti dinars.",
+   "style": "mosaic",
+   "max": [
+    [
+     300,
+     "KWD 300"
+    ],
+    [
+     450,
+     "KWD 450"
+    ],
+    [
+     700,
+     "KWD 700"
+    ]
+   ]
+  },
+  {
+   "kind": "yield",
+   "title": "For owners and investors",
+   "text": "Thinking of buying a unit to let? See what a furnished coastal apartment can return.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Purchase price",
+     10000,
+     500000,
+     1000,
+     95000,
+     "money"
+    ],
+    [
+     "rent",
+     "Monthly rent",
+     40,
+     3000,
+     10,
+     520,
+     "money"
+    ],
+    [
+     "costs",
+     "Running costs",
+     5,
+     35,
+     1,
+     15,
+     "pct"
+    ]
+   ],
+   "results": [
+    [
+     "gross",
+     "Gross yield"
+    ],
+    [
+     "net",
+     "Net yield"
+    ],
+    [
+     "year",
+     "Net income a year"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Income you keep",
+    "Service charges, upkeep, vacancy"
+   ],
+   "fine": "An estimate for comparing homes. We give you real figures for any listing.",
+   "action": "Ask for this home's figures"
+  },
+  {
+   "kind": "visit",
+   "title": "Reserve an apartment",
+   "img": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Apartment tower at dusk",
+   "needs": [
+    "A furnished apartment",
+    "An unfurnished apartment",
+    "A short stay",
+    "Buying a unit"
+   ],
+   "action": "Send my reservation",
+   "subject": "Mareena Tower reservation"
+  }
+ ],
+ "listings": [
+  {
+   "id": "mt1",
+   "title": "Sea-view studio, furnished",
+   "area": "Mareena Tower",
+   "type": "Studio",
+   "price": 260,
+   "beds": 1,
+   "baths": 1,
+   "size": "50 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Furnished studio with a sea view, internet and weekly cleaning.",
+   "status": "Available",
+   "rent": true
+  },
+  {
+   "id": "mt2",
+   "title": "One-bedroom, coastal side",
+   "area": "Mareena Tower",
+   "type": "Apartment",
+   "price": 340,
+   "beds": 1,
+   "baths": 1,
+   "size": "72 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Furnished one-bedroom facing the Gulf.",
+   "status": null,
+   "rent": true
+  },
+  {
+   "id": "mt3",
+   "title": "Two-bedroom family apartment",
+   "area": "Mareena Tower",
+   "type": "Apartment",
+   "price": 450,
+   "beds": 2,
+   "baths": 2,
+   "size": "110 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two bedrooms, a living room and a balcony.",
+   "status": null,
+   "rent": true
+  },
+  {
+   "id": "mt4",
+   "title": "Three-bedroom, high floor",
+   "area": "Mareena Tower",
+   "type": "Apartment",
+   "price": 620,
+   "beds": 3,
+   "baths": 3,
+   "size": "150 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "High floor with long sea views and a maid's room.",
+   "status": "New",
+   "rent": true
+  },
+  {
+   "id": "mt5",
+   "title": "Unfurnished two-bedroom",
+   "area": "Mareena Tower",
+   "type": "Apartment",
+   "price": 380,
+   "beds": 2,
+   "baths": 2,
+   "size": "110 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Unfurnished, for a yearly lease.",
+   "status": null,
+   "rent": true
+  }
+ ],
+ "foot_cols": [
+  [
+   "Mareena Tower Real Estate Co.",
+   "Coastal Road, Al-Mahboula"
+  ],
+  [
+   "Apartments",
+   "The tower",
+   "Reserve"
+  ],
+  [
+   "+965 6694 6640",
+   "+965 6705 3106"
+  ],
+  [
+   "Open 24/7/365",
+   "After hours: 2372 9858"
+  ]
+ ],
+ "path": "mareena",
+ "areas": []
+}

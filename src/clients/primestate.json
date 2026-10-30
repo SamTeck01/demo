@@ -1,0 +1,375 @@
+{
+ "rank": 14,
+ "slug": "primestate-properties",
+ "name": "PrimeState Properties",
+ "short": "PrimeState",
+ "mark": "PrimeState",
+ "city": "Doha, Qatar",
+ "title": "PrimeState Properties · Residences in Lusail and Viva Bahriya",
+ "description": "PrimeState Properties leases and sells residences in Lusail Residence, Jasmine Tower and Viva Bahriya on The Pearl, Qatar.",
+ "email": "leasing@primestateproperties.qa",
+ "phone": "+974 5201 7893",
+ "address": "Lusail<br>State of Qatar",
+ "hours": [
+  [
+   "Sunday to Thursday",
+   "8:30 to 17:30"
+  ],
+  [
+   "Saturday",
+   "10:00 to 14:00"
+  ],
+  [
+   "Viewings",
+   "Every day by booking"
+  ]
+ ],
+ "currency": "QAR",
+ "locale": "en-QA",
+ "cta": "Book a viewing",
+ "fonts": {
+  "url": "family=Italiana&family=Inter:wght@400;500",
+  "display": "'Italiana',Georgia,serif",
+  "text": "'Inter',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#f4f3ef",
+  "surface": "#e7e4dc",
+  "ink": "#1c1a16",
+  "muted": "#5f5a52",
+  "accent": "#1c1a16",
+  "accent-ink": "#f4f3ef",
+  "field-1": "#2d4a43",
+  "field-1-ink": "#f4f3ef",
+  "field-2": "#d9cfb8",
+  "field-2-ink": "#1c1a16",
+  "display-weight": "400",
+  "display-track": "0",
+  "display-lead": "1.0",
+  "btn-radius": "999px",
+  "radius": "0",
+  "foot-bg": "#2d4a43",
+  "foot-ink": "#f4f3ef",
+  "mark-size": "17vw"
+ },
+ "nav": [
+  [
+   "Residences",
+   "homes"
+  ],
+  [
+   "Our gems",
+   "areas"
+  ],
+  [
+   "Returns",
+   "calculator"
+  ],
+  [
+   "Contact",
+   "visit"
+  ]
+ ],
+ "hero": {
+  "v": "arch",
+  "img": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Living room with tall arched windows",
+  "title": "Our gems in Qatar",
+  "sub": "Three residential buildings in Lusail and on The Pearl, leased and sold directly by the people who run them.",
+  "action": "See the residences"
+ },
+ "sections": [
+  {
+   "kind": "areas",
+   "title": "Three buildings",
+   "intro": "Each building has its own setting. Choose one to see what it offers.",
+   "field": "field"
+  },
+  {
+   "kind": "listings",
+   "title": "Residences available",
+   "intro": "One to four bedrooms, for lease and for sale, priced in Qatari riyals.",
+   "style": "rail",
+   "max": [
+    [
+     10000,
+     "QAR 10,000/mo"
+    ],
+    [
+     20000,
+     "QAR 20,000/mo"
+    ],
+    [
+     3000000,
+     "QAR 3M"
+    ]
+   ]
+  },
+  {
+   "kind": "yield",
+   "title": "Buying at Viva Bahriya?",
+   "text": "Freehold for every nationality on The Pearl. See the return on a typical apartment.",
+   "field": "",
+   "inputs": [
+    [
+     "price",
+     "Purchase price",
+     250000,
+     6000000,
+     25000,
+     1450000,
+     "money"
+    ],
+    [
+     "rent",
+     "Monthly rent",
+     1000,
+     40000,
+     250,
+     8500,
+     "money"
+    ],
+    [
+     "costs",
+     "Running costs",
+     5,
+     35,
+     1,
+     15,
+     "pct"
+    ]
+   ],
+   "results": [
+    [
+     "gross",
+     "Gross yield"
+    ],
+    [
+     "net",
+     "Net yield"
+    ],
+    [
+     "year",
+     "Net income a year"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Income you keep",
+    "Service charges, upkeep, vacancy"
+   ],
+   "fine": "An estimate for comparing homes. We give you real figures for any listing.",
+   "action": "Ask for this home's figures"
+  },
+  {
+   "kind": "visit",
+   "title": "Book a viewing",
+   "img": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Villa with a pool and terrace",
+   "needs": [
+    "Lusail Residence",
+    "Jasmine Tower",
+    "Viva Bahriya"
+   ],
+   "action": "Request a viewing",
+   "subject": "PrimeState viewing"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Lusail Residence",
+   "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&q=80&auto=format&fit=crop",
+   "text": "Residential building in Lusail with one to three bedroom apartments.",
+   "facts": [
+    [
+     "Homes",
+     "1–3 BDR"
+    ],
+    [
+     "Use",
+     "Residential"
+    ],
+    [
+     "Terms",
+     "Lease"
+    ],
+    [
+     "Near",
+     "Lusail tram"
+    ]
+   ]
+  },
+  {
+   "name": "Jasmine Tower",
+   "img": "https://images.unsplash.com/photo-1597047084897-51e81819a499?w=1000&q=80&auto=format&fit=crop",
+   "text": "A residential tower with two to four bedroom apartments.",
+   "facts": [
+    [
+     "Homes",
+     "2–4 BDR"
+    ],
+    [
+     "Use",
+     "Residential"
+    ],
+    [
+     "Terms",
+     "Lease"
+    ],
+    [
+     "Feel",
+     "Family"
+    ]
+   ]
+  },
+  {
+   "name": "Viva Bahriya",
+   "img": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1000&q=80&auto=format&fit=crop",
+   "text": "Beachfront towers on The Pearl, buildings 20, 21 and 23, freehold for all.",
+   "facts": [
+    [
+     "Homes",
+     "1 BDR +"
+    ],
+    [
+     "Use",
+     "Sale and lease"
+    ],
+    [
+     "Terms",
+     "Freehold"
+    ],
+    [
+     "Beach",
+     "Private"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "ps1",
+   "title": "Lusail Residence one-bedroom",
+   "area": "Lusail Residence",
+   "type": "Apartment",
+   "price": 7500,
+   "beds": 1,
+   "baths": 1,
+   "size": "78 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Bright one-bedroom near the tram, with gym and pool.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ps2",
+   "title": "Lusail Residence three-bedroom",
+   "area": "Lusail Residence",
+   "type": "Apartment",
+   "price": 13500,
+   "beds": 3,
+   "baths": 3,
+   "size": "165 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Family apartment with a maid's room and two parking bays.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ps3",
+   "title": "Jasmine Tower two-bedroom",
+   "area": "Jasmine Tower",
+   "type": "Apartment",
+   "price": 9800,
+   "beds": 2,
+   "baths": 2,
+   "size": "120 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two bedrooms with a balcony on a high floor.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ps4",
+   "title": "Jasmine Tower four-bedroom",
+   "area": "Jasmine Tower",
+   "type": "Apartment",
+   "price": 18500,
+   "beds": 4,
+   "baths": 4,
+   "size": "240 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Large family apartment with city views.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ps5",
+   "title": "Viva Bahriya 23, one-bedroom",
+   "area": "Viva Bahriya",
+   "type": "Apartment",
+   "price": 1450000,
+   "beds": 1,
+   "baths": 2,
+   "size": "92 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Freehold, beach access and sea views.",
+   "status": "For sale",
+   "rent": false
+  },
+  {
+   "id": "ps6",
+   "title": "Viva Bahriya 20, beach apartment",
+   "area": "Viva Bahriya",
+   "type": "Apartment",
+   "price": 11500,
+   "beds": 2,
+   "baths": 3,
+   "size": "145 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Beachfront two-bedroom on The Pearl.",
+   "status": "Lease",
+   "rent": true
+  }
+ ],
+ "foot_cols": [
+  [
+   "PrimeState Properties",
+   "Lusail · The Pearl"
+  ],
+  [
+   "Residences",
+   "Our gems",
+   "Returns"
+  ],
+  [
+   "+974 5201 7893",
+   "leasing@primestateproperties.qa"
+  ],
+  [
+   "Viewings",
+   "Every day"
+  ]
+ ],
+ "path": "primestate"
+}

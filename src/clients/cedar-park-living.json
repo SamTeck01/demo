@@ -1,0 +1,459 @@
+{
+ "rank": 8,
+ "slug": "cedar-park-living",
+ "name": "Cedar Park Living",
+ "short": "Cedar Park Living",
+ "mark": "Cedar Park",
+ "city": "Cedar Park, TX",
+ "title": "Cedar Park Living · Christina Legrand & Stephanie Reyna",
+ "description": "Cedar Park Living helps families buy, sell and relocate to Cedar Park, Leander and north-west Austin. Licensed since 2004, 45+ five-star reviews.",
+ "email": "clegrand@cedarparktxliving.com",
+ "phone": "512 966 6540",
+ "address": "Cedar Park, Texas<br>with Venture Partners R.E.",
+ "hours": [
+  [
+   "Monday to Saturday",
+   "9:00 to 6:00"
+  ],
+  [
+   "Sunday",
+   "Showings by request"
+  ],
+  [
+   "Relocation calls",
+   "Any time"
+  ]
+ ],
+ "currency": "USD",
+ "cta": "Plan a move",
+ "data": {
+  "taxRate": 0.021,
+  "insure": 170
+ },
+ "fonts": {
+  "url": "family=Young+Serif&family=Figtree:wght@400;500",
+  "display": "'Young Serif',Georgia,serif",
+  "text": "'Figtree',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#f3f4f0",
+  "surface": "#e3e7de",
+  "ink": "#1e2c25",
+  "muted": "#526158",
+  "accent": "#2c6e4f",
+  "accent-ink": "#ffffff",
+  "field-1": "#2c6e4f",
+  "field-1-ink": "#f3f4f0",
+  "field-2": "#c6d6cb",
+  "field-2-ink": "#1e2c25",
+  "display-weight": "400",
+  "display-track": "-0.02em",
+  "display-lead": "1.0",
+  "btn-radius": "999px",
+  "radius": "18px",
+  "foot-bg": "#1e2c25",
+  "foot-ink": "#f3f4f0",
+  "mark-size": "17vw"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Towns",
+   "areas"
+  ],
+  [
+   "Payments",
+   "calculator"
+  ],
+  [
+   "Moving here",
+   "how"
+  ]
+ ],
+ "hero": {
+  "v": "arch",
+  "img": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Family home on a green lawn under trees",
+  "title": "Live well in Cedar Park",
+  "sub": "Christina and Stephanie have shown families around Cedar Park since 2004: the lake, the trails, the schools, and then the house.",
+  "action": "Find a home"
+ },
+ "sections": [
+  {
+   "kind": "areas",
+   "title": "Choose your town",
+   "intro": "Five towns north-west of Austin, each with its own pace. Pick one.",
+   "field": "field-2"
+  },
+  {
+   "kind": "listings",
+   "title": "Homes for sale",
+   "intro": "Family homes from the $400s, filtered by town, size and price.",
+   "style": "rail",
+   "max": [
+    [
+     450000,
+     "$450k"
+    ],
+    [
+     600000,
+     "$600k"
+    ],
+    [
+     850000,
+     "$850k"
+    ]
+   ]
+  },
+  {
+   "kind": "mortgage",
+   "title": "A real monthly number",
+   "text": "Williamson County taxes run around 2.1%. This includes them, so your budget holds.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     200000,
+     1500000,
+     5000,
+     535000,
+     "money"
+    ],
+    [
+     "down",
+     "Down payment",
+     3,
+     40,
+     1,
+     20,
+     "pct"
+    ],
+    [
+     "rate",
+     "Interest rate",
+     3,
+     9,
+     0.125,
+     6.5,
+     "pct"
+    ],
+    [
+     "years",
+     "Loan term",
+     15,
+     30,
+     15,
+     30,
+     "yr"
+    ]
+   ],
+   "results": [
+    [
+     "pi",
+     "Loan payment"
+    ],
+    [
+     "all",
+     "With tax and insurance"
+    ],
+    [
+     "total",
+     "Total interest"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)",
+    "var(--surface)"
+   ],
+   "legend": [
+    "Loan",
+    "Property tax",
+    "Insurance"
+   ],
+   "fine": "Assumes 2.1% tax. Your lender confirms the details.",
+   "action": "Talk to us about financing"
+  },
+  {
+   "kind": "process",
+   "title": "Moving to Cedar Park",
+   "id": "how",
+   "steps": [
+    [
+     "A video tour of the town",
+     "Before you visit, we send a tour of the neighbourhoods that fit how you live."
+    ],
+    [
+     "A weekend of showings",
+     "We line up the homes, the school visits and lunch at the places we love."
+    ],
+    [
+     "Offers that win",
+     "Twenty years of local sales help us price an offer that lands without overpaying."
+    ],
+    [
+     "A welcome after closing",
+     "Our guide to local events, shops and family fun keeps arriving after you move in."
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Start your move",
+   "img": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Brick family home in a quiet street",
+   "needs": [
+    "Relocating to Cedar Park",
+    "Buying locally",
+    "Selling my home"
+   ],
+   "action": "Send to Christina",
+   "subject": "Cedar Park Living enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Cedar Park",
+   "img": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1000&q=80&auto=format&fit=crop",
+   "text": "Brushy Creek trails, the H-E-B Center and some of the best schools in Leander ISD.",
+   "facts": [
+    [
+     "Median",
+     "$520k"
+    ],
+    [
+     "Schools",
+     "Leander ISD"
+    ],
+    [
+     "To Austin",
+     "30 min"
+    ],
+    [
+     "Best for",
+     "Families"
+    ]
+   ]
+  },
+  {
+   "name": "Leander",
+   "img": "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1000&q=80&auto=format&fit=crop",
+   "text": "Newer homes, the rail line to downtown and room to grow.",
+   "facts": [
+    [
+     "Median",
+     "$470k"
+    ],
+    [
+     "Schools",
+     "Leander ISD"
+    ],
+    [
+     "To Austin",
+     "40 min"
+    ],
+    [
+     "Best for",
+     "Space"
+    ]
+   ]
+  },
+  {
+   "name": "Round Rock",
+   "img": "https://images.unsplash.com/photo-1494526585095-c41746248156?w=1000&q=80&auto=format&fit=crop",
+   "text": "Established neighbourhoods and the big employers of the north.",
+   "facts": [
+    [
+     "Median",
+     "$480k"
+    ],
+    [
+     "Schools",
+     "Round Rock ISD"
+    ],
+    [
+     "To Austin",
+     "30 min"
+    ],
+    [
+     "Best for",
+     "Commuters"
+    ]
+   ]
+  },
+  {
+   "name": "Lago Vista",
+   "img": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1000&q=80&auto=format&fit=crop",
+   "text": "Lake Travis views, golf and a slower weekend pace.",
+   "facts": [
+    [
+     "Median",
+     "$560k"
+    ],
+    [
+     "Schools",
+     "Lago Vista ISD"
+    ],
+    [
+     "To Austin",
+     "45 min"
+    ],
+    [
+     "Best for",
+     "The lake"
+    ]
+   ]
+  },
+  {
+   "name": "Brushy Creek",
+   "img": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1000&q=80&auto=format&fit=crop",
+   "text": "Greenbelts, pools and a 1990s neighbourhood feel.",
+   "facts": [
+    [
+     "Median",
+     "$495k"
+    ],
+    [
+     "Schools",
+     "Round Rock ISD"
+    ],
+    [
+     "To Austin",
+     "32 min"
+    ],
+    [
+     "Best for",
+     "Trails"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "cp1",
+   "title": "Brushy Creek trail-side home",
+   "area": "Brushy Creek",
+   "type": "House",
+   "price": 489000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,280 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1494526585095-c41746248156?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Backs onto the greenbelt, new floors, a covered patio.",
+   "status": "New",
+   "rent": false
+  },
+  {
+   "id": "cp2",
+   "title": "Cedar Park two-storey",
+   "area": "Cedar Park",
+   "type": "House",
+   "price": 565000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,640 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Game room upstairs and Leander ISD schools down the road.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "cp3",
+   "title": "Leander new build",
+   "area": "Leander",
+   "type": "House",
+   "price": 449000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,980 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Energy-efficient new construction near the MetroRail station.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "cp4",
+   "title": "Lago Vista lake-view",
+   "area": "Lago Vista",
+   "type": "House",
+   "price": 615000,
+   "beds": 3,
+   "baths": 3,
+   "size": "2,150 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Decks facing Lake Travis and a short drive to the marina.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "cp5",
+   "title": "Round Rock starter home",
+   "area": "Round Rock",
+   "type": "House",
+   "price": 399000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,560 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Updated, big yard, near Dell and the Round Rock outlets.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "cp6",
+   "title": "Cedar Park cul-de-sac",
+   "area": "Cedar Park",
+   "type": "House",
+   "price": 699000,
+   "beds": 5,
+   "baths": 4,
+   "size": "3,320 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Pool, a study and a quiet cul-de-sac near Brushy Creek Park.",
+   "status": "Open Sat",
+   "rent": false
+  }
+ ],
+ "foot_cols": [
+  [
+   "Cedar Park Living",
+   "Christina Legrand & Stephanie Reyna"
+  ],
+  [
+   "Homes",
+   "Towns",
+   "Moving here"
+  ],
+  [
+   "512 966 6540",
+   "clegrand@cedarparktxliving.com"
+  ],
+  [
+   "Venture Partners R.E.",
+   "Licensed since 2004"
+  ]
+ ],
+ "path": "cedar-park-living"
+}

@@ -1,0 +1,524 @@
+{
+ "rank": 2,
+ "slug": "habitat-hunters",
+ "name": "Habitat Hunters",
+ "short": "Habitat Hunters",
+ "mark": "Habitat",
+ "city": "Austin, TX",
+ "title": "Habitat Hunters · Austin real estate since 1972",
+ "description": "Habitat Hunters has helped Austin buy and sell homes since 1972. Find your habitat, search homes and see what your payment would be.",
+ "email": "info@habitathunters.com",
+ "phone": "512 482 8651",
+ "address": "1804 W Koenig Lane<br>Austin, TX 78756",
+ "hours": [
+  [
+   "Monday to Friday",
+   "9:00 to 6:00"
+  ],
+  [
+   "Saturday",
+   "10:00 to 4:00"
+  ],
+  [
+   "Sunday",
+   "By appointment"
+  ]
+ ],
+ "currency": "USD",
+ "cta": "Talk to an agent",
+ "data": {
+  "taxRate": 0.019,
+  "insure": 180
+ },
+ "fonts": {
+  "url": "family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500",
+  "display": "'Fraunces',Georgia,serif",
+  "text": "'Inter',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#f3f1e8",
+  "surface": "#e6e3d5",
+  "ink": "#1d2a1f",
+  "muted": "#5b6556",
+  "accent": "#1f5c3a",
+  "accent-ink": "#f3f1e8",
+  "field-1": "#1f3d2b",
+  "field-1-ink": "#f3f1e8",
+  "field-2": "#d9cfb0",
+  "field-2-ink": "#1d2a1f",
+  "display-weight": "400",
+  "display-track": "-0.025em",
+  "display-lead": "0.98",
+  "btn-radius": "999px",
+  "radius": "0",
+  "hero-ink": "#1d2a1f",
+  "foot-bg": "#1f3d2b",
+  "foot-ink": "#f3f1e8",
+  "mark-size": "21vw"
+ },
+ "nav": [
+  [
+   "Homes",
+   "homes"
+  ],
+  [
+   "Field guide",
+   "areas"
+  ],
+  [
+   "Payments",
+   "calculator"
+  ],
+  [
+   "Since 1972",
+   "story"
+  ]
+ ],
+ "nav_solid": false,
+ "hero": {
+  "v": "editorial",
+  "img": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Craftsman bungalow with a porch under autumn trees",
+  "title": "Find your habitat in Austin",
+  "sub": "Eleven agents, one office on Koenig Lane, and more than fifty years of knowing which street suits which life.",
+  "action": "Search Austin homes",
+  "specs": [
+   [
+    "Founded",
+    "1972"
+   ],
+   [
+    "Agents",
+    "11"
+   ],
+   [
+    "Office",
+    "Koenig Ln"
+   ],
+   [
+    "Areas",
+    "40+"
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "kind": "areas",
+   "title": "A field guide to Austin",
+   "intro": "Every neighbourhood has its markings: the trees, the porches, the morning traffic. Choose one to read its entry."
+  },
+  {
+   "kind": "listings",
+   "title": "Homes we are showing now",
+   "intro": "Filter by habitat, size and price. The heart keeps a home on your list on this device.",
+   "style": "rail",
+   "max": [
+    [
+     450000,
+     "$450k"
+    ],
+    [
+     650000,
+     "$650k"
+    ],
+    [
+     900000,
+     "$900k"
+    ],
+    [
+     1500000,
+     "$1.5M"
+    ]
+   ]
+  },
+  {
+   "kind": "mortgage",
+   "title": "What would you pay a month?",
+   "text": "Austin taxes surprise people. This adds them in, along with insurance, so the number you see is the number you'll budget.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Home price",
+     250000,
+     2000000,
+     5000,
+     625000,
+     "money"
+    ],
+    [
+     "down",
+     "Down payment",
+     3,
+     40,
+     1,
+     20,
+     "pct"
+    ],
+    [
+     "rate",
+     "Interest rate",
+     4,
+     9,
+     0.125,
+     6.5,
+     "pct"
+    ],
+    [
+     "years",
+     "Loan term",
+     15,
+     30,
+     15,
+     30,
+     "yr"
+    ]
+   ],
+   "results": [
+    [
+     "pi",
+     "Loan payment"
+    ],
+    [
+     "all",
+     "With tax and insurance"
+    ],
+    [
+     "total",
+     "Total interest"
+    ]
+   ],
+   "bars": [
+    "#f3f1e8",
+    "#d9cfb0",
+    "#7c9a7f"
+   ],
+   "legend": [
+    "Loan",
+    "Property tax",
+    "Insurance"
+   ],
+   "fine": "Uses a 1.9% Travis County tax estimate. Your lender will confirm the real figures.",
+   "action": "Get matched with a lender"
+  },
+  {
+   "kind": "process",
+   "title": "How a hunt goes",
+   "id": "how",
+   "steps": [
+    [
+     "We listen first",
+     "One conversation about how you live: the commute, the school, the yard you want or don't."
+    ],
+    [
+     "We scout ahead",
+     "Our agents see homes before they list, so you hear about the right one early."
+    ],
+    [
+     "We negotiate in-house",
+     "Jeff Plotkin, our co-owner, is an attorney and CPA. Contracts are read by someone who knows the law."
+    ],
+    [
+     "We stay after closing",
+     "Fifty years in, many of our clients are second-generation. We'd like you to be one."
+    ]
+   ]
+  },
+  {
+   "kind": "about",
+   "title": "Austin's habitat since 1972",
+   "lead": "Habitat Hunters is one of Austin's oldest independent real estate firms, led by Jody Lockshin since the 1980s.",
+   "img": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Austin skyline over Lady Bird Lake at dusk",
+   "over": "Independent and locally owned. No franchise fees, no out-of-state head office, just Austin.",
+   "tile": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=900&q=80&auto=format&fit=crop",
+   "tile_alt": "White farmhouse with a wide porch",
+   "facts": [
+    [
+     "1972",
+     "Founded"
+    ],
+    [
+     "11",
+     "Licensed agents"
+    ],
+    [
+     "1982",
+     "Jody licensed"
+    ],
+    [
+     "1",
+     "Office, Koenig Lane"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Come by Koenig Lane",
+   "img": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Brick family home with a two-car garage",
+   "needs": [
+    "I want to buy",
+    "I want to sell",
+    "I want to do both",
+    "Just a question"
+   ],
+   "action": "Send to the office",
+   "subject": "Habitat Hunters enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Crestview",
+   "img": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1000&q=80&auto=format&fit=crop",
+   "text": "Mid-century ranch homes under big pecans, a short ride to the Domain, and a farmers market on Saturdays.",
+   "facts": [
+    [
+     "Median",
+     "$640k"
+    ],
+    [
+     "Homes",
+     "1950s ranch"
+    ],
+    [
+     "Schools",
+     "Lamar MS"
+    ],
+    [
+     "Commute",
+     "15 min downtown"
+    ]
+   ]
+  },
+  {
+   "name": "Allandale",
+   "img": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1000&q=80&auto=format&fit=crop",
+   "text": "Wide lots, mature oaks and a mix of original homes and new builds near Northwest Park.",
+   "facts": [
+    [
+     "Median",
+     "$910k"
+    ],
+    [
+     "Homes",
+     "Ranch, new builds"
+    ],
+    [
+     "Schools",
+     "Gullett ES"
+    ],
+    [
+     "Commute",
+     "18 min downtown"
+    ]
+   ]
+  },
+  {
+   "name": "Brentwood",
+   "img": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1000&q=80&auto=format&fit=crop",
+   "text": "Small cottages, sidewalks and some of Austin's best taco trucks, walking distance from our office.",
+   "facts": [
+    [
+     "Median",
+     "$720k"
+    ],
+    [
+     "Homes",
+     "Cottages"
+    ],
+    [
+     "Schools",
+     "Brentwood ES"
+    ],
+    [
+     "Commute",
+     "14 min downtown"
+    ]
+   ]
+  },
+  {
+   "name": "Hyde Park",
+   "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1000&q=80&auto=format&fit=crop",
+   "text": "Austin's first suburb: porches, historic districts and the university on the doorstep.",
+   "facts": [
+    [
+     "Median",
+     "$850k"
+    ],
+    [
+     "Homes",
+     "Historic"
+    ],
+    [
+     "Schools",
+     "Lee ES"
+    ],
+    [
+     "Commute",
+     "10 min downtown"
+    ]
+   ]
+  },
+  {
+   "name": "Wells Branch",
+   "img": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1000&q=80&auto=format&fit=crop",
+   "text": "Quiet streets, greenbelts and room for a growing family, north of the city line.",
+   "facts": [
+    [
+     "Median",
+     "$430k"
+    ],
+    [
+     "Homes",
+     "1980s family"
+    ],
+    [
+     "Schools",
+     "Round Rock ISD"
+    ],
+    [
+     "Commute",
+     "25 min downtown"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "hh1",
+   "title": "Pecan-shaded ranch on Arroyo Seco",
+   "area": "Crestview",
+   "type": "House",
+   "price": 649000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,540 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Updated 1956 ranch with original oak floors, a screened porch and a backyard under two old pecans.",
+   "status": "New"
+  },
+  {
+   "id": "hh2",
+   "title": "New build near Northwest Park",
+   "area": "Allandale",
+   "type": "House",
+   "price": 1295000,
+   "beds": 4,
+   "baths": 3,
+   "size": "2,980 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Two-storey modern with a pool-ready yard, a study and walking access to Northwest Park.",
+   "status": null
+  },
+  {
+   "id": "hh3",
+   "title": "Brentwood cottage",
+   "area": "Brentwood",
+   "type": "House",
+   "price": 589000,
+   "beds": 2,
+   "baths": 1,
+   "size": "1,020 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Character cottage with a detached studio, deep lot and a garden the neighbours talk about.",
+   "status": null
+  },
+  {
+   "id": "hh4",
+   "title": "Hyde Park craftsman",
+   "area": "Hyde Park",
+   "type": "House",
+   "price": 1125000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,860 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "1920s craftsman in the historic district, restored porch, original windows and a new kitchen.",
+   "status": "Open Sat"
+  },
+  {
+   "id": "hh5",
+   "title": "Greenbelt family home",
+   "area": "Wells Branch",
+   "type": "House",
+   "price": 419000,
+   "beds": 4,
+   "baths": 2,
+   "size": "2,110 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Four bedrooms backing onto the greenbelt, new roof, and a short walk to the pool and trails.",
+   "status": null
+  },
+  {
+   "id": "hh6",
+   "title": "Crestview duplex",
+   "area": "Crestview",
+   "type": "Duplex",
+   "price": 879000,
+   "beds": 4,
+   "baths": 4,
+   "size": "2,400 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Owner-occupy one side and rent the other. Both units updated, separate yards, near the rail line.",
+   "status": null
+  },
+  {
+   "id": "hh7",
+   "title": "Allandale mid-century",
+   "area": "Allandale",
+   "type": "House",
+   "price": 945000,
+   "beds": 3,
+   "baths": 2,
+   "size": "1,890 sq ft",
+   "img": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Low-slung mid-century with clerestory windows, terrazzo floors and a quarter-acre lot.",
+   "status": null
+  }
+ ],
+ "foot_cols": [
+  [
+   "Habitat Hunters, Inc.",
+   "1804 W Koenig Lane, Austin"
+  ],
+  [
+   "Homes",
+   "Field guide",
+   "Payments"
+  ],
+  [
+   "512 482 8651",
+   "info@habitathunters.com"
+  ],
+  [
+   "Monday to Friday 9–6",
+   "Saturday 10–4"
+  ]
+ ],
+ "path": "habitat-hunters"
+}

@@ -1,0 +1,427 @@
+{
+ "rank": 13,
+ "slug": "bin-ajlan-properties",
+ "name": "Bin Ajlan Properties",
+ "short": "Bin Ajlan",
+ "mark": "Bin Ajlan",
+ "city": "Doha, Qatar",
+ "title": "Bin Ajlan Properties · Homes, shops and warehouses in Qatar",
+ "description": "Licensed Qatari brokerage since 2008. Bin Ajlan Properties sells, leases, manages and values homes, shops and warehouses across Doha.",
+ "email": "info@binajlan.net",
+ "phone": "+974 4414 1464",
+ "address": "Salwa Road, Industrial Area<br>Doha, State of Qatar",
+ "hours": [
+  [
+   "Saturday to Thursday",
+   "8:00 to 18:00"
+  ],
+  [
+   "Friday",
+   "Closed"
+  ],
+  [
+   "Valuations",
+   "By appointment"
+  ]
+ ],
+ "currency": "QAR",
+ "locale": "en-QA",
+ "cta": "Request a valuation",
+ "fonts": {
+  "url": "family=Outfit:wght@300;400;600",
+  "display": "'Outfit',system-ui,sans-serif",
+  "text": "'Outfit',system-ui,sans-serif"
+ },
+ "tokens": {
+  "bg": "#0e1718",
+  "surface": "#192527",
+  "ink": "#eef2f1",
+  "muted": "#9fb0ae",
+  "accent": "#e8c26a",
+  "accent-ink": "#0e1718",
+  "field-1": "#e8c26a",
+  "field-1-ink": "#0e1718",
+  "field-2": "#eef2f1",
+  "field-2-ink": "#0e1718",
+  "display-weight": "300",
+  "display-track": "-0.04em",
+  "display-lead": "0.95",
+  "btn-radius": "0",
+  "radius": "0",
+  "foot-bg": "#e8c26a",
+  "foot-ink": "#0e1718",
+  "mark-size": "19vw"
+ },
+ "nav": [
+  [
+   "Inventory",
+   "homes"
+  ],
+  [
+   "Locations",
+   "areas"
+  ],
+  [
+   "Yield",
+   "calculator"
+  ],
+  [
+   "Services",
+   "how"
+  ]
+ ],
+ "hero": {
+  "v": "sky",
+  "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=2400&q=80&auto=format&fit=crop",
+  "alt": "Glass towers rising into a blue sky",
+  "title": "Every kind of<br>property in Qatar",
+  "horizon": [
+   "Homes, shops,",
+   "warehouses and land"
+  ],
+  "action": "Open the inventory",
+  "btn": "",
+  "scrim": 0.42
+ },
+ "sections": [
+  {
+   "kind": "listings",
+   "title": "The inventory",
+   "intro": "Residential, commercial and industrial, for sale and lease. Hover a row to see it.",
+   "style": "index",
+   "max": [
+    [
+     20000,
+     "Leases"
+    ],
+    [
+     3000000,
+     "QAR 3M"
+    ],
+    [
+     8000000,
+     "QAR 8M"
+    ],
+    [
+     20000000,
+     "QAR 20M"
+    ]
+   ]
+  },
+  {
+   "kind": "yield",
+   "title": "What does it return?",
+   "text": "Commercial units often earn more than homes. Compare any purchase in seconds.",
+   "field": "field",
+   "inputs": [
+    [
+     "price",
+     "Purchase price",
+     500000,
+     20000000,
+     50000,
+     3500000,
+     "money"
+    ],
+    [
+     "rent",
+     "Monthly rent",
+     2000,
+     120000,
+     500,
+     24000,
+     "money"
+    ],
+    [
+     "costs",
+     "Running costs",
+     5,
+     35,
+     1,
+     15,
+     "pct"
+    ]
+   ],
+   "results": [
+    [
+     "gross",
+     "Gross yield"
+    ],
+    [
+     "net",
+     "Net yield"
+    ],
+    [
+     "year",
+     "Net income a year"
+    ]
+   ],
+   "bars": [
+    "var(--accent)",
+    "var(--muted)"
+   ],
+   "legend": [
+    "Income you keep",
+    "Service charges, upkeep, vacancy"
+   ],
+   "fine": "An estimate for comparing homes. We give you real figures for any listing.",
+   "action": "Ask for this home's figures"
+  },
+  {
+   "kind": "areas",
+   "title": "Where we trade",
+   "intro": "From the Industrial Area to the coast. Pick a location."
+  },
+  {
+   "kind": "process",
+   "title": "Four services, one office",
+   "id": "how",
+   "steps": [
+    [
+     "Brokerage",
+     "Licensed in Qatar to sell and lease residential and commercial property."
+    ],
+    [
+     "Property management",
+     "Tenants, rent and upkeep handled for owners of buildings and compounds."
+    ],
+    [
+     "Valuation",
+     "Written valuations for banks, buyers, partners and estates."
+    ],
+    [
+     "Development",
+     "Advice and delivery for owners building on their land."
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "title": "Visit Salwa Road",
+   "img": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80&auto=format&fit=crop",
+   "alt": "Modern apartment block",
+   "needs": [
+    "Buy",
+    "Lease",
+    "Valuation",
+    "Management"
+   ],
+   "action": "Send",
+   "subject": "Bin Ajlan enquiry"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Industrial Area",
+   "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&q=80&auto=format&fit=crop",
+   "text": "Warehouses, workshops and labour accommodation off Salwa Road.",
+   "facts": [
+    [
+     "Best for",
+     "Industry"
+    ],
+    [
+     "Units",
+     "Warehouses"
+    ],
+    [
+     "Lease from",
+     "QAR 25/m²"
+    ],
+    [
+     "Access",
+     "Salwa Road"
+    ]
+   ]
+  },
+  {
+   "name": "Salwa Road",
+   "img": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1000&q=80&auto=format&fit=crop",
+   "text": "Showrooms and shops on Doha's busiest commercial road.",
+   "facts": [
+    [
+     "Best for",
+     "Retail"
+    ],
+    [
+     "Units",
+     "Showrooms"
+    ],
+    [
+     "Lease from",
+     "QAR 120/m²"
+    ],
+    [
+     "Traffic",
+     "Very high"
+    ]
+   ]
+  },
+  {
+   "name": "Al Wakrah",
+   "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&q=80&auto=format&fit=crop",
+   "text": "A coastal town with villas, the souq and the new stadium.",
+   "facts": [
+    [
+     "Best for",
+     "Families"
+    ],
+    [
+     "Units",
+     "Villas"
+    ],
+    [
+     "Villa rent",
+     "QAR 12,000"
+    ],
+    [
+     "To Doha",
+     "20 min"
+    ]
+   ]
+  },
+  {
+   "name": "Al Rayyan",
+   "img": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1000&q=80&auto=format&fit=crop",
+   "text": "Large plots, family villas and room to build.",
+   "facts": [
+    [
+     "Best for",
+     "Land"
+    ],
+    [
+     "Units",
+     "Villas, plots"
+    ],
+    [
+     "Villa rent",
+     "QAR 14,000"
+    ],
+    [
+     "To Doha",
+     "15 min"
+    ]
+   ]
+  }
+ ],
+ "listings": [
+  {
+   "id": "ba1",
+   "title": "Warehouse, Street 24",
+   "area": "Industrial Area",
+   "type": "Warehouse",
+   "price": 32000,
+   "beds": 0,
+   "baths": 2,
+   "size": "1,200 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "High-bay warehouse with offices, loading ramps and three-phase power.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ba2",
+   "title": "Showroom on Salwa Road",
+   "area": "Salwa Road",
+   "type": "Commercial",
+   "price": 9500000,
+   "beds": 0,
+   "baths": 2,
+   "size": "640 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Corner showroom with mezzanine and 14 m frontage.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ba3",
+   "title": "Al Wakrah villa",
+   "area": "Al Wakrah",
+   "type": "Villa",
+   "price": 12000,
+   "beds": 5,
+   "baths": 6,
+   "size": "420 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Standalone villa with a majlis, a garden and a maid's room.",
+   "status": "Lease",
+   "rent": true
+  },
+  {
+   "id": "ba4",
+   "title": "Al Rayyan plot with villa",
+   "area": "Al Rayyan",
+   "type": "Villa",
+   "price": 4800000,
+   "beds": 6,
+   "baths": 7,
+   "size": "900 m² plot",
+   "img": [
+    "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1400&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Older villa on a large plot, ideal to renovate or rebuild.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ba5",
+   "title": "Labour accommodation block",
+   "area": "Industrial Area",
+   "type": "Commercial",
+   "price": 14500000,
+   "beds": 0,
+   "baths": 40,
+   "size": "2,800 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Licensed accommodation block with 80 rooms and a canteen.",
+   "status": null,
+   "rent": false
+  },
+  {
+   "id": "ba6",
+   "title": "Retail shop",
+   "area": "Salwa Road",
+   "type": "Commercial",
+   "price": 18000,
+   "beds": 0,
+   "baths": 1,
+   "size": "120 m²",
+   "img": [
+    "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1400&q=80&auto=format&fit=crop"
+   ],
+   "desc": "Street-front shop in a busy parade.",
+   "status": "Lease",
+   "rent": true
+  }
+ ],
+ "foot_cols": [
+  [
+   "Bin Ajlan Properties",
+   "Licensed brokerage since 2008"
+  ],
+  [
+   "Inventory",
+   "Locations",
+   "Services"
+  ],
+  [
+   "+974 4414 1464",
+   "info@binajlan.net"
+  ],
+  [
+   "Salwa Road",
+   "Industrial Area, Doha"
+  ]
+ ],
+ "path": "bin-ajlan"
+}
