@@ -1,0 +1,43 @@
+# Idea: a Qatari house since 2001. The page takes Qatar's own maroon as its single colour, set against stone and sand.
+from _h import L, A, yield_tool
+SITE = dict(
+  rank=12, slug="wabrah-real-estate", name="Wabrah Real Estate", short="Wabrah", mark="Wabrah", city="Doha, Qatar",
+  title="Wabrah Real Estate · Doha homes since 2001",
+  description="Wabrah has bought, sold and leased homes in Doha since 2001. Villas and apartments in The Pearl, Lusail, West Bay and Al Waab.",
+  email="info@wabrah.com", phone="+974 4481 6328", address="Doha<br>State of Qatar",
+  hours=[("Sunday to Thursday", "8:00 to 17:00"), ("Saturday", "9:00 to 13:00"), ("Friday", "Closed")],
+  currency="QAR", locale="en-QA", cta="Speak to us",
+  fonts=dict(url="family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500", display="'Cormorant Garamond',Georgia,serif", text="'Manrope',system-ui,sans-serif"),
+  tokens=dict(bg="#ebe8e2", surface="#dcd8cf", ink="#1a1614", muted="#58514c", accent="#7a1f33", **{"accent-ink": "#ffffff",
+    "field-1": "#7a1f33", "field-1-ink": "#f6f2ee", "field-2": "#1a1614", "field-2-ink": "#ebe8e2", "display-weight": "500",
+    "display-track": "-0.015em", "display-lead": "0.95", "btn-radius": "0", "radius": "0", "foot-bg": "#7a1f33", "foot-ink": "#f6f2ee", "mark-size": "22vw"}),
+  nav=[("Homes", "homes"), ("Districts", "areas"), ("Returns", "calculator"), ("About", "story")],
+  hero=dict(v="editorial", img="villa-terrace-pool", alt="White villa with a terrace pool", title="Doha homes, since 2001",
+    sub="Wabrah is a Qatari real estate and trading house. For more than twenty years we have helped families and investors buy, sell and lease in Doha.",
+    action="See available homes", specs=[("Founded", "2001"), ("Base", "Doha"), ("Services", "Buy · Lease"), ("Also", "Trading")]),
+  sections=[
+    ("listings", dict(title="Available now", intro="Villas and apartments for sale and lease, in Qatari riyals.", style="mosaic",
+      max=[(15000, "Rentals"), (2000000, "QAR 2M"), (5000000, "QAR 5M"), (10000000, "QAR 10M")])),
+    ("areas", dict(title="The districts", intro="Doha's neighbourhoods differ more than most cities'. Choose one.", field="field-2")),
+    yield_tool("Will it pay for itself?", "Foreigners may buy freehold in The Pearl, Lusail and West Bay. See the yield on a typical home.", 1800000, 9500, field="field", hi=12000000, rhi=60000, step=25000, rstep=250),
+    ("about", dict(title="A Qatari house", id="story", lead="Wabrah was founded in Doha in 2001 as a real estate and trading company, and is still run here.",
+      img="towers-glass", alt="Glass towers against a blue sky", over="We know the buildings, the developers and the landlords. That saves our clients months.",
+      tile="living-arches", tile_alt="Living room with arched windows", facts=[("2001", "Founded"), ("Doha", "Head office"), ("Sale", "Lease · Manage"), ("Freehold", "For foreigners")])),
+    ("visit", dict(title="Meet us in Doha", img="villa-white-pool", alt="White villa with a pool", needs=["Buying", "Leasing", "Investing", "Selling"], action="Send", subject="Wabrah enquiry")),
+  ],
+  areas=[
+    A("The Pearl", "villa-pool-wood", "An island of marinas and towers where foreigners may own freehold.", ("Ownership", "Freehold"), ("Feel", "Marina life"), ("To West Bay", "15 min"), ("2-bed rent", "QAR 10,500")),
+    A("Lusail", "towers-up", "Qatar's new city by the stadium, with the tram and the Marina towers.", ("Ownership", "Freehold"), ("Feel", "New city"), ("To West Bay", "20 min"), ("2-bed rent", "QAR 9,000")),
+    A("West Bay", "towers-glass", "The business skyline and the Corniche.", ("Ownership", "Freehold zones"), ("Feel", "City centre"), ("To the airport", "20 min"), ("2-bed rent", "QAR 9,500")),
+    A("Al Waab", "villa-white-pool", "Compounds and villas near Aspire Park and the best schools.", ("Ownership", "Lease"), ("Feel", "Family"), ("To West Bay", "20 min"), ("Villa rent", "QAR 18,000")),
+  ],
+  listings=[
+    L("wb1", "Pearl marina two-bedroom", "The Pearl", "Apartment", 1850000, 2, 3, "141 m²", ["living-bright", "kitchen-white"], "Freehold apartment over Porto Arabia marina with a balcony and two parking spaces.", "New"),
+    L("wb2", "Al Waab compound villa", "Al Waab", "Villa", 18000, 4, 5, "350 m²", ["villa-white-pool", "living-classic"], "Compound villa with a shared pool and gym, near Aspire Park.", "Lease", True),
+    L("wb3", "Lusail Marina one-bedroom", "Lusail", "Apartment", 1150000, 1, 2, "86 m²", ["living-loft"], "Freehold one-bedroom with tram access and sea views."),
+    L("wb4", "West Bay penthouse", "West Bay", "Penthouse", 6900000, 4, 5, "420 m²", ["glass-stair-pool", "living-arches"], "Penthouse above the Corniche with a private terrace."),
+    L("wb5", "Pearl townhouse", "The Pearl", "Townhouse", 4100000, 3, 4, "290 m²", ["modern-gable", "living-wood"], "Waterfront townhouse in Qanat Quartier with a boat mooring."),
+    L("wb6", "Lusail family apartment", "Lusail", "Apartment", 9200, 3, 3, "170 m²", ["living-grey", "bedroom-dark"], "Three bedrooms, furnished, near the boulevard.", "Lease", True),
+  ],
+  foot_cols=[["Wabrah Real Estate & Trading", "Doha, since 2001"], ["Homes", "Districts", "Returns"], ["+974 4481 6328", "info@wabrah.com"], ["Sunday to Thursday", "8:00 to 17:00"]],
+)

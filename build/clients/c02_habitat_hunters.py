@@ -1,0 +1,56 @@
+# Idea: "Habitat Hunters". Austin's neighbourhoods are written up like a naturalist's field guide: each habitat with
+# its markings, its season and where it is found. Since 1972 the firm has known them the way a field guide does.
+def L(i, t, a, ty, pr, bd, ba, sz, im, d, st=None):
+    return dict(id=i, title=t, area=a, type=ty, price=pr, beds=bd, baths=ba, size=sz, img=im, desc=d, status=st)
+
+SITE = dict(
+  rank=2, slug="habitat-hunters", name="Habitat Hunters", short="Habitat Hunters", mark="Habitat", city="Austin, TX",
+  title="Habitat Hunters · Austin real estate since 1972",
+  description="Habitat Hunters has helped Austin buy and sell homes since 1972. Find your habitat, search homes and see what your payment would be.",
+  email="info@habitathunters.com", phone="512 482 8651", address="1804 W Koenig Lane<br>Austin, TX 78756",
+  hours=[("Monday to Friday", "9:00 to 6:00"), ("Saturday", "10:00 to 4:00"), ("Sunday", "By appointment")],
+  currency="USD", cta="Talk to an agent", data=dict(taxRate=0.019, insure=180),
+  fonts=dict(url="family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500", display="'Fraunces',Georgia,serif", text="'Inter',system-ui,sans-serif"),
+  tokens=dict(bg="#f3f1e8", surface="#e6e3d5", ink="#1d2a1f", muted="#5b6556", accent="#1f5c3a", **{"accent-ink": "#f3f1e8",
+    "field-1": "#1f3d2b", "field-1-ink": "#f3f1e8", "field-2": "#d9cfb0", "field-2-ink": "#1d2a1f", "display-weight": "400",
+    "display-track": "-0.025em", "display-lead": "0.98", "btn-radius": "999px", "radius": "0", "hero-ink": "#1d2a1f", "foot-bg": "#1f3d2b", "foot-ink": "#f3f1e8", "mark-size": "21vw"}),
+  nav=[("Homes", "homes"), ("Field guide", "areas"), ("Payments", "calculator"), ("Since 1972", "story")],
+  nav_solid=False,
+  hero=dict(v="editorial", img="bungalow", alt="Craftsman bungalow with a porch under autumn trees",
+    title="Find your habitat in Austin", sub="Eleven agents, one office on Koenig Lane, and more than fifty years of knowing which street suits which life.",
+    action="Search Austin homes", specs=[("Founded", "1972"), ("Agents", "11"), ("Office", "Koenig Ln"), ("Areas", "40+")]),
+  sections=[
+    ("areas", dict(title="A field guide to Austin", intro="Every neighbourhood has its markings: the trees, the porches, the morning traffic. Choose one to read its entry.")),
+    ("listings", dict(title="Homes we are showing now", intro="Filter by habitat, size and price. The heart keeps a home on your list on this device.", style="rail",
+      max=[(450000, "$450k"), (650000, "$650k"), (900000, "$900k"), (1500000, "$1.5M")])),
+    ("tool", dict(kind="mortgage", title="What would you pay a month?", text="Austin taxes surprise people. This adds them in, along with insurance, so the number you see is the number you'll budget.", field="field",
+      inputs=[("price", "Home price", 250000, 2000000, 5000, 625000, "money"), ("down", "Down payment", 3, 40, 1, 20, "pct"), ("rate", "Interest rate", 4, 9, 0.125, 6.5, "pct"), ("years", "Loan term", 15, 30, 15, 30, "yr")],
+      results=[("pi", "Loan payment"), ("all", "With tax and insurance"), ("total", "Total interest")], bars=["#f3f1e8", "#d9cfb0", "#7c9a7f"], legend=["Loan", "Property tax", "Insurance"],
+      fine="Uses a 1.9% Travis County tax estimate. Your lender will confirm the real figures.", action="Get matched with a lender")),
+    ("process", dict(title="How a hunt goes", id="how", steps=[("We listen first", "One conversation about how you live: the commute, the school, the yard you want or don't."),
+      ("We scout ahead", "Our agents see homes before they list, so you hear about the right one early."),
+      ("We negotiate in-house", "Jeff Plotkin, our co-owner, is an attorney and CPA. Contracts are read by someone who knows the law."),
+      ("We stay after closing", "Fifty years in, many of our clients are second-generation. We'd like you to be one.")])),
+    ("about", dict(title="Austin's habitat since 1972", lead="Habitat Hunters is one of Austin's oldest independent real estate firms, led by Jody Lockshin since the 1980s.",
+      img="austin-skyline", alt="Austin skyline over Lady Bird Lake at dusk", over="Independent and locally owned. No franchise fees, no out-of-state head office, just Austin.",
+      tile="farmhouse-white", tile_alt="White farmhouse with a wide porch", facts=[("1972", "Founded"), ("11", "Licensed agents"), ("1982", "Jody licensed"), ("1", "Office, Koenig Lane")])),
+    ("visit", dict(title="Come by Koenig Lane", img="brick-suburban", alt="Brick family home with a two-car garage", needs=["I want to buy", "I want to sell", "I want to do both", "Just a question"], action="Send to the office", subject="Habitat Hunters enquiry")),
+  ],
+  areas=[
+    dict(name="Crestview", img="bungalow", text="Mid-century ranch homes under big pecans, a short ride to the Domain, and a farmers market on Saturdays.", facts=[("Median", "$640k"), ("Homes", "1950s ranch"), ("Schools", "Lamar MS"), ("Commute", "15 min downtown")]),
+    dict(name="Allandale", img="modern-tree-lawn", text="Wide lots, mature oaks and a mix of original homes and new builds near Northwest Park.", facts=[("Median", "$910k"), ("Homes", "Ranch, new builds"), ("Schools", "Gullett ES"), ("Commute", "18 min downtown")]),
+    dict(name="Brentwood", img="red-roof-cottage", text="Small cottages, sidewalks and some of Austin's best taco trucks, walking distance from our office.", facts=[("Median", "$720k"), ("Homes", "Cottages"), ("Schools", "Brentwood ES"), ("Commute", "14 min downtown")]),
+    dict(name="Hyde Park", img="farmhouse-white", text="Austin's first suburb: porches, historic districts and the university on the doorstep.", facts=[("Median", "$850k"), ("Homes", "Historic"), ("Schools", "Lee ES"), ("Commute", "10 min downtown")]),
+    dict(name="Wells Branch", img="brick-suburban", text="Quiet streets, greenbelts and room for a growing family, north of the city line.", facts=[("Median", "$430k"), ("Homes", "1980s family"), ("Schools", "Round Rock ISD"), ("Commute", "25 min downtown")]),
+  ],
+  listings=[
+    L("hh1", "Pecan-shaded ranch on Arroyo Seco", "Crestview", "House", 649000, 3, 2, "1,540 sq ft", ["bungalow", "living-dog", "kitchen-white"], "Updated 1956 ranch with original oak floors, a screened porch and a backyard under two old pecans.", "New"),
+    L("hh2", "New build near Northwest Park", "Allandale", "House", 1295000, 4, 3, "2,980 sq ft", ["modern-tree-lawn", "living-wood", "bath-black"], "Two-storey modern with a pool-ready yard, a study and walking access to Northwest Park."),
+    L("hh3", "Brentwood cottage", "Brentwood", "House", 589000, 2, 1, "1,020 sq ft", ["red-roof-cottage", "living-blue"], "Character cottage with a detached studio, deep lot and a garden the neighbours talk about."),
+    L("hh4", "Hyde Park craftsman", "Hyde Park", "House", 1125000, 3, 2, "1,860 sq ft", ["farmhouse-white", "living-classic", "kitchen-white"], "1920s craftsman in the historic district, restored porch, original windows and a new kitchen.", "Open Sat"),
+    L("hh5", "Greenbelt family home", "Wells Branch", "House", 419000, 4, 2, "2,110 sq ft", ["brick-suburban", "living-bright"], "Four bedrooms backing onto the greenbelt, new roof, and a short walk to the pool and trails."),
+    L("hh6", "Crestview duplex", "Crestview", "Duplex", 879000, 4, 4, "2,400 sq ft", ["modern-gable", "living-grey"], "Owner-occupy one side and rent the other. Both units updated, separate yards, near the rail line."),
+    L("hh7", "Allandale mid-century", "Allandale", "House", 945000, 3, 2, "1,890 sq ft", ["modern-dark-tree", "living-loft"], "Low-slung mid-century with clerestory windows, terrazzo floors and a quarter-acre lot."),
+  ],
+  foot_cols=[["Habitat Hunters, Inc.", "1804 W Koenig Lane, Austin"], ["Homes", "Field guide", "Payments"], ["512 482 8651", "info@habitathunters.com"], ["Monday to Friday 9–6", "Saturday 10–4"]],
+)

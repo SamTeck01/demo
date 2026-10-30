@@ -1,0 +1,42 @@
+# Idea: the firm's red-and-yellow "G" mark becomes the page: a whole field of its yellow, the red as the one action.
+from _h import L, A, mortgage
+SITE = dict(
+  rank=5, slug="graham-central-properties", name="Graham Central Properties", short="Graham Central", mark="Graham Central", city="Austin, TX",
+  title="Graham Central Properties · Central Austin sales and leasing",
+  description="Graham Central Properties sells and leases homes across central Austin and the Hill Country. Search listings and past sales.",
+  email="kyle@grahamcentralproperties.com", phone="512 452 2000", address="6002 Lonesome Valley Trail<br>Austin, TX 78731",
+  hours=[("Monday to Friday", "9:00 to 6:00"), ("Saturday", "By appointment"), ("Leasing line", "Open weekdays")],
+  currency="USD", cta="Call the office", data=dict(taxRate=0.019, insure=190),
+  fonts=dict(url="family=Archivo:wght@400;500;800", display="'Archivo',system-ui,sans-serif", text="'Archivo',system-ui,sans-serif"),
+  tokens=dict(bg="#ffffff", surface="#f1efe8", ink="#141414", muted="#555555", accent="#d7262e", **{"accent-ink": "#ffffff",
+    "field-1": "#f5c33b", "field-1-ink": "#141414", "field-2": "#141414", "field-2-ink": "#ffffff", "display-weight": "800",
+    "display-track": "-0.045em", "display-lead": "0.88", "btn-radius": "0", "radius": "0", "foot-bg": "#f5c33b", "foot-ink": "#141414", "mark-size": "12.6vw", "brand-weight": "800"}),
+  nav=[("Listings", "homes"), ("Areas", "areas"), ("Payments", "calculator"), ("Team", "story")],
+  hero=dict(v="poster", img="farmhouse-white", alt="White two-storey house with a deep porch", title="Central Austin, sold.",
+    sub="Sales and leasing across Tarrytown, Bryker Woods and the Hill Country, from a team that has worked these streets for years.", action="See current listings", second="Lease a home"),
+  sections=[
+    ("listings", dict(title="Current listings", intro="For sale and for lease. Filter by area and price; save the ones you like.", style="rail",
+      max=[(600000, "$600k"), (1200000, "$1.2M"), (2500000, "$2.5M")])),
+    ("areas", dict(title="Where we work", intro="From the old streets west of Lamar to ranch land in the Hill Country.")),
+    mortgage("What would it cost a month?", "A quick, honest number with Travis County tax included.", 1150000, "Uses a 1.9% tax estimate. A lender confirms exact figures.", field="field-2", top=4000000),
+    ("about", dict(title="A central Austin team", lead="Kyle Graham leads a team of agents who handle sales, leasing and commercial property across Central Texas.",
+      img="austin-skyline", alt="Austin skyline from across the river", over="One office for buying, selling, leasing and commercial, so you never start over with someone new.",
+      tile="bungalow", tile_alt="Craftsman bungalow", facts=[("6+", "Agents"), ("30", "Listings and recent sales"), ("Sales", "and leasing"), ("Central", "Texas, ranch to condo")])),
+    ("visit", dict(title="Stop by the office", img="modern-tree-lawn", alt="Modern house on a green lawn", needs=["Buying", "Selling", "Leasing", "Commercial"], action="Send to the team", subject="Graham Central enquiry")),
+  ],
+  areas=[
+    A("Tarrytown", "farmhouse-white", "Classic homes and big oaks between MoPac and the lake, where median prices sit around $1.5M.", ("Median", "$1.5M"), ("Homes", "1930s–new"), ("Schools", "Casis ES"), ("Feel", "Leafy, walkable")),
+    A("Bryker Woods", "bungalow", "Bungalows near Shoal Creek, Seton and the old Central Market.", ("Median", "$1.3M"), ("Homes", "Bungalows"), ("Schools", "Bryker Woods ES"), ("Feel", "Small-town")),
+    A("Northwest Hills", "modern-dark-tree", "Views, trails and mid-century homes on the hills above MoPac.", ("Median", "$1.1M"), ("Homes", "1960s–80s"), ("Schools", "Doss ES"), ("Feel", "Quiet, green")),
+    A("Hill Country", "ranch-dusk", "Acreage and ranches west of the city for room to breathe.", ("From", "$900k"), ("Homes", "Ranch, acreage"), ("Schools", "Varies"), ("Feel", "Wide open")),
+  ],
+  listings=[
+    L("gc1", "4380 River Garden Trail", "Northwest Hills", "House", 1385000, 4, 3, "3,120 sq ft", ["villa-tall-pool", "living-bright"], "Pool, a three-car garage and a living room that opens onto the trees.", "New"),
+    L("gc2", "2120 West 10th Street", "Tarrytown", "House", 1655000, 3, 2, "1,940 sq ft", ["farmhouse-white", "living-classic"], "1948 home on a 0.36-acre lot, updated and ready, a block from Westenfield Park."),
+    L("gc3", "Bryker Woods bungalow", "Bryker Woods", "House", 1180000, 2, 2, "1,410 sq ft", ["bungalow", "kitchen-white"], "Porch, garden and a short walk to Shoal Creek."),
+    L("gc4", "Hill Country ranch, 12 acres", "Hill Country", "Ranch", 1790000, 4, 3, "3,300 sq ft", ["ranch-dusk", "living-wood"], "Stone ranch house on 12 acres with a barn and a seasonal creek."),
+    L("gc5", "Tarrytown garage apartment", "Tarrytown", "Apartment", 2350, 1, 1, "640 sq ft", ["living-blue"], "Lease: quiet garage apartment with its own entrance and parking.", "For lease", True),
+    L("gc6", "Northwest Hills family home", "Northwest Hills", "House", 985000, 4, 3, "2,640 sq ft", ["modern-dark-tree", "living-grey"], "Updated kitchen, a big deck and Doss Elementary nearby."),
+  ],
+  foot_cols=[["Graham Central Properties", "6002 Lonesome Valley Trail, Austin"], ["Listings", "Areas", "Payments"], ["512 452 2000", "kyle@grahamcentralproperties.com"], ["Sales and leasing", "Central Texas"]],
+)

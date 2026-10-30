@@ -1,0 +1,42 @@
+# Idea: "We are steps away." The office is inside the Ocean Club, so the page measures everything in steps: to the beach, the pool, the marina.
+from _h import L, A, mortgage
+SITE = dict(
+  rank=6, slug="ocean-club-realty", name="Ocean Club Realty", short="Ocean Club Realty", mark="Ocean Club", city="Key Biscayne, FL",
+  title="Ocean Club Realty · The on-site office on Key Biscayne",
+  description="Ocean Club Realty is the independent real estate office inside the Ocean Club on Key Biscayne. Sales and rentals across the towers and villas.",
+  email="admin@oceanclubrealtyinc.com", phone="305 361 2020", address="Ocean Club, Crandon Boulevard<br>Key Biscayne, FL 33149",
+  hours=[("Monday to Saturday", "9:00 to 6:00"), ("Sunday", "11:00 to 4:00"), ("Showings", "Any day, on request")],
+  currency="USD", cta="Visit the office", data=dict(taxRate=0.02, insure=420),
+  fonts=dict(url="family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Manrope:wght@400;500", display="'Bodoni Moda',Georgia,serif", text="'Manrope',system-ui,sans-serif"),
+  tokens=dict(bg="#f3f5f4", surface="#e1e8e7", ink="#0d2b33", muted="#46616a", accent="#0b5e6b", **{"accent-ink": "#ffffff",
+    "field-1": "#0d2b33", "field-1-ink": "#eef4f3", "field-2": "#cfe0dd", "field-2-ink": "#0d2b33", "display-weight": "400",
+    "display-track": "-0.02em", "display-lead": "0.95", "btn-radius": "0", "radius": "0", "foot-bg": "#0d2b33", "foot-ink": "#eef4f3", "mark-size": "17vw"}),
+  nav=[("Residences", "homes"), ("The towers", "areas"), ("Payments", "calculator"), ("The office", "visit")],
+  hero=dict(v="sky", img="miami-bay", alt="Towers along the water on Biscayne Bay", title="We are<br>steps away",
+    horizon=("The on-site office", "inside the Ocean Club"), action="See the residences", scrim=.2),
+  sections=[
+    ("statement", dict(title="On the island", img="villa-tall-pool", alt="White villa above a pool",
+      text="Most agents drive over the causeway to show a home here. We walk. Our office sits inside the Ocean Club, between the towers, the tennis centre and the beach.",
+      note="Sales and seasonal rentals across every tower and villa in the community.")),
+    ("listings", dict(title="Residences available", intro="Towers, lakefront villas and penthouses. Each listing shows how many steps it is to the sand.", style="index",
+      max=[(1500000, "$1.5M"), (3000000, "$3M"), (6000000, "$6M"), (15000, "Rentals")])),
+    ("areas", dict(title="The towers and villas", intro="The Ocean Club is several buildings with different views. Choose one to see how it lives.", field="field")),
+    mortgage("Plan the monthly cost", "Key Biscayne carries Florida taxes and island insurance. This includes both.", 2400000, "Assumes 2% tax and island insurance. Association fees not included.", top=12000000, lo=500000),
+    ("visit", dict(title="Walk in any day", img="colonial-pool", alt="White house with a pool and palms", needs=["Buying a residence", "A seasonal rental", "Selling my residence"], action="Book a walk-through", subject="Ocean Club Realty enquiry")),
+  ],
+  areas=[
+    A("Ocean Tower One", "towers-glass", "Direct oceanfront, with the beach club and spa at its feet.", ("Faces", "Atlantic"), ("To the sand", "90 steps"), ("Homes", "2–5 bed"), ("From", "$2.1M")),
+    A("Club Tower", "apartments-white", "The quietest tower, set back by the tennis centre and the lake.", ("Faces", "Lake, ocean"), ("To the sand", "300 steps"), ("Homes", "2–4 bed"), ("From", "$1.4M")),
+    A("Lake Tower", "living-bright", "Bright residences over the lagoon with sunset views west.", ("Faces", "Bay, sunset"), ("To the sand", "260 steps"), ("Homes", "2–4 bed"), ("From", "$1.3M")),
+    A("Lakefront villas", "villa-white-pool", "Private villas with gardens and pools along the water.", ("Faces", "Lagoon"), ("To the sand", "400 steps"), ("Homes", "4–6 bed"), ("From", "$5M")),
+  ],
+  listings=[
+    L("oc1", "Ocean Tower One, 14th floor", "Ocean Tower One", "Residence", 3950000, 3, 3, "2,450 sq ft", ["living-bright", "bath-black"], "Corner residence with a wraparound terrace facing the Atlantic. 90 steps to the sand.", "New"),
+    L("oc2", "Club Tower two-bedroom", "Club Tower", "Residence", 1495000, 2, 2, "1,550 sq ft", ["living-grey", "kitchen-white"], "Renovated, lake and tennis views, a short walk to the beach club."),
+    L("oc3", "Lake Tower penthouse", "Lake Tower", "Penthouse", 5250000, 4, 5, "3,900 sq ft", ["glass-stair-pool", "living-wood"], "Two-level penthouse with sunset views over the bay."),
+    L("oc4", "Lakefront villa with pool", "Lakefront villas", "Villa", 7900000, 5, 6, "5,400 sq ft", ["villa-white-pool", "living-arches"], "Private villa on the lagoon with a pool and a garden to the water."),
+    L("oc5", "Seasonal rental, Ocean Tower", "Ocean Tower One", "Rental", 14500, 2, 2, "1,800 sq ft", ["living-loft"], "Furnished, available December to April.", "Rental", True),
+    L("oc6", "Club Tower three-bedroom", "Club Tower", "Residence", 2150000, 3, 3, "2,100 sq ft", ["living-classic", "bedroom-dark"], "Split plan with a family room and a long east terrace."),
+  ],
+  foot_cols=[["Ocean Club Realty, Inc.", "Ocean Club, Key Biscayne"], ["Residences", "The towers", "Payments"], ["305 361 2020", "admin@oceanclubrealtyinc.com"], ["Open seven days", "The on-site office"]],
+)
