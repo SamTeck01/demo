@@ -12,6 +12,14 @@
       "destination": "/austin-boutique/index.html"
     },
     {
+      "source": "/graham-central",
+      "destination": "/graham-central/index.html"
+    },
+    {
+      "source": "/graham-central/(.*)",
+      "destination": "/graham-central/index.html"
+    },
+    {
       "source": "/habitat-hunters",
       "destination": "/habitat-hunters/index.html"
     },
