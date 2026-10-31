@@ -4,6 +4,14 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/habitat-hunters",
+      "destination": "/habitat-hunters/index.html"
+    },
+    {
+      "source": "/habitat-hunters/(.*)",
+      "destination": "/habitat-hunters/index.html"
+    },
+    {
       "source": "/landmark",
       "destination": "/landmark/index.html"
     },
