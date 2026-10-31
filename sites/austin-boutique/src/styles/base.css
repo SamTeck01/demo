@@ -1,0 +1,20 @@
+/* Tokens: charcoal panels on near-black, warm white type, one bronze-grey accent. */
+:root{
+  --ground:#0f1110; --tile:#1a1d1b; --tile-2:#232624; --ink:#eceae5; --ink-2:#c2beb6; --accent:#d8cfc0; --accent-ink:#141513;
+  --display:'Playfair Display',Georgia,serif; --text:'Hanken Grotesk',system-ui,sans-serif;
+  --ease:cubic-bezier(.23,1,.32,1); --drawer:cubic-bezier(.32,.72,0,1);
+  --gut:8px; --max:1440px; --r:18px;
+  --s-title:clamp(36px,5.2vw,72px);
+}
+@media (min-width:768px){:root{--gut:16px}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:84px;color-scheme:dark}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.6 var(--text);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:4px}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:8px;z-index:99;padding:10px 14px;background:var(--ink);color:var(--ground)}
+.skip:focus{left:8px}
+.wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:var(--gut)}

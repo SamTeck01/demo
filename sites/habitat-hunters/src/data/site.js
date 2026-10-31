@@ -10,7 +10,7 @@ import kitchen from '../assets/img/kitchen.jpg'
 import bath from '../assets/img/bath.jpg'
 import dusk from '../assets/img/dusk.jpg'
 
-export const heroImg = midcentury
+export const heroImg = craftsman
 export const office = {
   name: 'Habitat Hunters', phone: '512 482 8651', tel: '+15124828651', email: 'info@habitathunters.com',
   address: ['1804 W Koenig Lane', 'Austin, TX 78756'],

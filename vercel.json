@@ -4,6 +4,14 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/austin-boutique",
+      "destination": "/austin-boutique/index.html"
+    },
+    {
+      "source": "/austin-boutique/(.*)",
+      "destination": "/austin-boutique/index.html"
+    },
+    {
       "source": "/habitat-hunters",
       "destination": "/habitat-hunters/index.html"
     },
