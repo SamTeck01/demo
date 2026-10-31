@@ -20,6 +20,14 @@
       "destination": "/landmark/index.html"
     },
     {
+      "source": "/west-austin",
+      "destination": "/west-austin/index.html"
+    },
+    {
+      "source": "/west-austin/(.*)",
+      "destination": "/west-austin/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
