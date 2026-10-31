@@ -1,4 +1,19 @@
 {
   "framework": "vite",
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/landmark",
+      "destination": "/landmark/index.html"
+    },
+    {
+      "source": "/landmark/(.*)",
+      "destination": "/landmark/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
