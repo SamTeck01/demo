@@ -1,0 +1,20 @@
+/* Tokens: Hestia's warm sepia, espresso ink, white boxes. */
+:root{
+  --ground:#f1e9df; --sand:#e4d8c9; --ink:#2b2420; --ink-2:#5d5048; --deep:#2b2420; --deep-2:#3a302a; --white:#fff; --warm:#c7a27a;
+  --text:'Archivo',system-ui,sans-serif;
+  --ease:cubic-bezier(.23,1,.32,1); --drawer:cubic-bezier(.32,.72,0,1);
+  --gut:16px; --max:1400px;
+  --s-title:clamp(38px,5vw,72px);
+}
+@media (min-width:768px){:root{--gut:32px}}
+@media (min-width:1200px){:root{--gut:64px}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:80px}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.55 var(--text);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:3px}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;z-index:99;padding:10px 14px;background:var(--ink);color:#fff}
+.skip:focus{left:8px}
+.wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:var(--gut)}
