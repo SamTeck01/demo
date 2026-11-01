@@ -52,6 +52,14 @@
       "destination": "/graham-central/index.html"
     },
     {
+      "source": "/gulf-avenues",
+      "destination": "/gulf-avenues/index.html"
+    },
+    {
+      "source": "/gulf-avenues/(.*)",
+      "destination": "/gulf-avenues/index.html"
+    },
+    {
       "source": "/habitat-hunters",
       "destination": "/habitat-hunters/index.html"
     },
