@@ -84,6 +84,14 @@
       "destination": "/taskeen/index.html"
     },
     {
+      "source": "/wabrah",
+      "destination": "/wabrah/index.html"
+    },
+    {
+      "source": "/wabrah/(.*)",
+      "destination": "/wabrah/index.html"
+    },
+    {
       "source": "/west-austin",
       "destination": "/west-austin/index.html"
     },

@@ -1,0 +1,20 @@
+/* Tokens: Qatar maroon, warm stone, copper for the action. */
+:root{
+  --ground:#f2f1ef; --stone:#e4e2de; --ink:#24110f; --ink-2:#5f4a45; --maroon:#5e1622; --maroon-deep:#2a0c11; --copper:#8a1f2e; --copper-ink:#fff; --light:#f5f3f1;
+  --display:'Instrument Serif',Georgia,serif; --text:'DM Sans',system-ui,sans-serif;
+  --ease:cubic-bezier(.23,1,.32,1); --drawer:cubic-bezier(.32,.72,0,1);
+  --gut:16px; --max:1400px;
+  --s-title:clamp(40px,5.6vw,80px);
+}
+@media (min-width:768px){:root{--gut:32px}}
+@media (min-width:1200px){:root{--gut:56px}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:80px}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.6 var(--text);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:3px}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--copper);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;z-index:99;padding:10px 14px;background:var(--copper);color:#fff}
+.skip:focus{left:8px}
+.wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:var(--gut)}
