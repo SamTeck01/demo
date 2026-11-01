@@ -28,6 +28,14 @@
       "destination": "/cedar-park-living/index.html"
     },
     {
+      "source": "/glory",
+      "destination": "/glory/index.html"
+    },
+    {
+      "source": "/glory/(.*)",
+      "destination": "/glory/index.html"
+    },
+    {
       "source": "/graham-central",
       "destination": "/graham-central/index.html"
     },
