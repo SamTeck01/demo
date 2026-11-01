@@ -20,6 +20,14 @@
       "destination": "/austin-boutique/index.html"
     },
     {
+      "source": "/cedar-park-living",
+      "destination": "/cedar-park-living/index.html"
+    },
+    {
+      "source": "/cedar-park-living/(.*)",
+      "destination": "/cedar-park-living/index.html"
+    },
+    {
       "source": "/graham-central",
       "destination": "/graham-central/index.html"
     },
