@@ -26,8 +26,8 @@ export default function Owners() {
             <p className="fine">Selling costs at about 6% plus closing. Leasing assumes 11.5 months let, our 8% management, 1.9% property tax and upkeep.</p>
           </div>
           <div className="owners-out" aria-live="polite">
-            <div className="out out-sell"><h3>Sell now</h3><p className="out-n">{money(Math.max(cash, 0))}</p><p>cash to you at closing</p></div>
-            <div className="out out-lease"><h3>Lease it</h3><p className="out-n">{money(yearNet)}</p><p>a year after costs, and you keep the home</p></div>
+            <div className="out out-sell"><p className="out-n">{money(Math.max(cash, 0))}</p><h3>Sell now</h3><p>Cash to you at closing.</p></div>
+            <div className="out out-lease"><p className="out-n">{money(yearNet)}</p><h3>Lease it</h3><p>A year after costs, and you keep the home.</p></div>
             <a className="btn btn-yellow" href={href}>Get both numbers from Kyle</a>
           </div>
         </div>
