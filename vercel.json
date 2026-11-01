@@ -100,6 +100,14 @@
       "destination": "/primestate/index.html"
     },
     {
+      "source": "/sayed-mahdi",
+      "destination": "/sayed-mahdi/index.html"
+    },
+    {
+      "source": "/sayed-mahdi/(.*)",
+      "destination": "/sayed-mahdi/index.html"
+    },
+    {
       "source": "/taskeen",
       "destination": "/taskeen/index.html"
     },
