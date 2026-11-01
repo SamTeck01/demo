@@ -12,6 +12,14 @@
       "destination": "/al-jrefe/index.html"
     },
     {
+      "source": "/altruistic",
+      "destination": "/altruistic/index.html"
+    },
+    {
+      "source": "/altruistic/(.*)",
+      "destination": "/altruistic/index.html"
+    },
+    {
       "source": "/aria-global",
       "destination": "/aria-global/index.html"
     },
