@@ -68,6 +68,14 @@
       "destination": "/habitat-hunters/index.html"
     },
     {
+      "source": "/laala",
+      "destination": "/laala/index.html"
+    },
+    {
+      "source": "/laala/(.*)",
+      "destination": "/laala/index.html"
+    },
+    {
       "source": "/landmark",
       "destination": "/landmark/index.html"
     },
