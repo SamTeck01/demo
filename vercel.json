@@ -20,6 +20,14 @@
       "destination": "/austin-boutique/index.html"
     },
     {
+      "source": "/bin-ajlan",
+      "destination": "/bin-ajlan/index.html"
+    },
+    {
+      "source": "/bin-ajlan/(.*)",
+      "destination": "/bin-ajlan/index.html"
+    },
+    {
       "source": "/cedar-park-living",
       "destination": "/cedar-park-living/index.html"
     },
