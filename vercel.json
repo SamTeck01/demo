@@ -84,6 +84,14 @@
       "destination": "/ocean-club/index.html"
     },
     {
+      "source": "/primestate",
+      "destination": "/primestate/index.html"
+    },
+    {
+      "source": "/primestate/(.*)",
+      "destination": "/primestate/index.html"
+    },
+    {
       "source": "/taskeen",
       "destination": "/taskeen/index.html"
     },
