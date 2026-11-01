@@ -1,0 +1,19 @@
+/* Tokens: grey page, white cards, Biscayne teal for the one accent. */
+:root{
+  --ground:#e4e4e2; --card:#fff; --soft:#f1f1ef; --ink:#111; --ink-2:#4d4d4a; --teal:#0b7f8e; --teal-soft:#cfeef1; --deep:#111;
+  --text:'Inter Tight',system-ui,sans-serif;
+  --ease:cubic-bezier(.23,1,.32,1); --drawer:cubic-bezier(.32,.72,0,1);
+  --gap:8px; --r:22px;
+  --s-title:clamp(34px,4.4vw,60px);
+}
+@media (min-width:900px){:root{--gap:12px}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:16px}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.55 var(--text);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:3px}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;z-index:99;padding:10px 14px;background:var(--ink);color:#fff}
+.skip:focus{left:8px}
+main{display:grid;gap:var(--gap);padding:0 var(--gap)}

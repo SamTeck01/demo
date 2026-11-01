@@ -4,6 +4,14 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/aria-global",
+      "destination": "/aria-global/index.html"
+    },
+    {
+      "source": "/aria-global/(.*)",
+      "destination": "/aria-global/index.html"
+    },
+    {
       "source": "/austin-boutique",
       "destination": "/austin-boutique/index.html"
     },
