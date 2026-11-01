@@ -52,6 +52,14 @@
       "destination": "/landmark/index.html"
     },
     {
+      "source": "/mahogany",
+      "destination": "/mahogany/index.html"
+    },
+    {
+      "source": "/mahogany/(.*)",
+      "destination": "/mahogany/index.html"
+    },
+    {
       "source": "/ocean-club",
       "destination": "/ocean-club/index.html"
     },
