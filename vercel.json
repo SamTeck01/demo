@@ -4,6 +4,14 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/al-jrefe",
+      "destination": "/al-jrefe/index.html"
+    },
+    {
+      "source": "/al-jrefe/(.*)",
+      "destination": "/al-jrefe/index.html"
+    },
+    {
       "source": "/aria-global",
       "destination": "/aria-global/index.html"
     },
