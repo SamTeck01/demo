@@ -76,6 +76,14 @@
       "destination": "/ocean-club/index.html"
     },
     {
+      "source": "/taskeen",
+      "destination": "/taskeen/index.html"
+    },
+    {
+      "source": "/taskeen/(.*)",
+      "destination": "/taskeen/index.html"
+    },
+    {
       "source": "/west-austin",
       "destination": "/west-austin/index.html"
     },
