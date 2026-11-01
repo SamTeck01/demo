@@ -36,6 +36,14 @@
       "destination": "/landmark/index.html"
     },
     {
+      "source": "/ocean-club",
+      "destination": "/ocean-club/index.html"
+    },
+    {
+      "source": "/ocean-club/(.*)",
+      "destination": "/ocean-club/index.html"
+    },
+    {
       "source": "/west-austin",
       "destination": "/west-austin/index.html"
     },
